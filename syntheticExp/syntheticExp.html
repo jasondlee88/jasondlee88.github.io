@@ -1,0 +1,187 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>Demo of the synthetic experiments.</title><meta name="generator" content="MATLAB 7.11"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2012-06-02"><meta name="DC.source" content="syntheticExp.m"><style type="text/css">
+
+body {
+  background-color: white;
+  margin:10px;
+}
+
+h1 {
+  color: #990000; 
+  font-size: x-large;
+}
+
+h2 {
+  color: #990000;
+  font-size: medium;
+}
+
+/* Make the text shrink to fit narrow windows, but not stretch too far in 
+wide windows. */ 
+p,h1,h2,div.content div {
+  max-width: 600px;
+  /* Hack for IE6 */
+  width: auto !important; width: 600px;
+}
+
+pre.codeinput {
+  background: #EEEEEE;
+  padding: 10px;
+}
+@media print {
+  pre.codeinput {word-wrap:break-word; width:100%;}
+} 
+
+span.keyword {color: #0000FF}
+span.comment {color: #228B22}
+span.string {color: #A020F0}
+span.untermstring {color: #B20000}
+span.syscmd {color: #B28C00}
+
+pre.codeoutput {
+  color: #666666;
+  padding: 10px;
+}
+
+pre.error {
+  color: red;
+}
+
+p.footer {
+  text-align: right;
+  font-size: xx-small;
+  font-weight: lighter;
+  font-style: italic;
+  color: gray;
+}
+
+  </style></head><body><div class="content"><h1>Demo of the synthetic experiments.</h1><!--introduction--><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Requires UGM at http://www.di.ens.fr/~mschmidt/Software/UGM_2009.zip</a></li><li><a href="#2">Requires TFOCS at http://tfocs.stanford.edu</a></li><li><a href="#3">Graph parameters</a></li><li><a href="#4">Create params</a></li><li><a href="#5">sample</a></li><li><a href="#6">Init opt variables</a></li><li><a href="#7">call TFOCS</a></li><li><a href="#8">Plot parameters</a></li></ul></div><h2>Requires UGM at http://www.di.ens.fr/~mschmidt/Software/UGM_2009.zip<a name="1"></a></h2><h2>Requires TFOCS at http://tfocs.stanford.edu<a name="2"></a></h2><h2>Graph parameters<a name="3"></a></h2><pre class="codeinput">p=10; <span class="comment">% number of cts variables</span>
+q=10; <span class="comment">% number of discrete variables</span>
+n=2000; <span class="comment">% sample size</span>
+e=ones(n,1);
+L=2*ones(q,1); <span class="comment">% levels in each categorical variable</span>
+Ltot=sum(L);
+</pre><h2>Create params<a name="4"></a></h2><pre class="codeinput">rhocts=.25;
+thcts=eye(p);
+<span class="keyword">for</span> i=1:p-1
+    thcts(i,i+1)=rhocts;
+    thcts(i+1,i)=rhocts;
+<span class="keyword">end</span>
+
+thdiscts=cell(p,q);
+maskDisCts=sparse(p,q);
+<span class="keyword">for</span> i=1:min(p,q)
+    rhocd=.5;
+    maskDisCts(i,i)=1;
+    thdiscts{i,i}=[rhocd; -rhocd];
+<span class="keyword">end</span>
+
+thdis=cell(q,q);
+maskDis = sparse(diag(ones(q-1,1),1));
+[R J]=find(maskDis);
+<span class="keyword">for</span> e=1:length(R)
+        thdis{R(e),J(e)}=.5*[1 -1; -1 1]; <span class="comment">% attractive</span>
+<span class="keyword">end</span>
+</pre><h2>sample<a name="5"></a></h2><pre class="codeinput">mixSample;
+</pre><h2>Init opt variables<a name="6"></a></h2><pre class="codeinput">theta=zeros(Ltot,p); <span class="comment">% cts-dis params</span>
+beta=zeros(p,p); <span class="comment">% negative of the precision matrix</span>
+betad=ones(p,1); <span class="comment">% diagonal of the precision matrix</span>
+alpha1=zeros(p,1); <span class="comment">% cts node potential param</span>
+alpha2=zeros(Ltot,1); <span class="comment">% dis node potential param</span>
+phi=zeros(Ltot,Ltot); <span class="comment">% dis edge potential params</span>
+Lsum=[0;cumsum(L)];
+x=paramToVecv5(beta,betad,theta,phi,alpha1,alpha2,L,n,p,q);
+</pre><h2>call TFOCS<a name="7"></a></h2><pre class="codeinput">lam=5*sqrt(log(p+q)/n);
+smoothF= @(x)lhoodTfocsv5(x,D,X,Y,L,n,p,q);
+nonsmoothH=@(varargin) tfocsProxGroupv6(lam,L,n,p,q, varargin{:} ); <span class="comment">% only returns value of nonsmooth</span>
+opts.alg=<span class="string">'N83'</span>;  opts.maxIts=800; opts.printEvery=100; opts.saveHist=true;
+opts.restart=-10^4;
+opts.tol=1e-10;
+[xopt out opts]=tfocs(smoothF, {}, nonsmoothH, x,opts);
+[beta betad theta phi alpha1 alpha2]= vecToParamv5(xopt,L,n,p,q);
+</pre><pre class="codeoutput">Nesterov's 1983 single-projection method
+Iter    Objective   |dx|/|x|    step
+----+----------------------------------
+89  | +1.20234e+001  3.08e-013  2.83e-005*
+Finished: Step size tolerance reached
+</pre><h2>Plot parameters<a name="8"></a></h2><pre class="codeinput">close <span class="string">all</span>;
+figure(1); imagesc(triu(thcts-diag(diag(thcts)))); title(<span class="string">'cts truth'</span>); colorbar;
+figure(2); imagesc(-beta); title(<span class="string">'cts recover'</span>); colorbar;
+figure(3); imagesc(maskDis); title(<span class="string">'discrete truth'</span>);colorbar;
+figure; imagesc(phi); title(<span class="string">'dis recover'</span>);colorbar;
+figure; imagesc(maskDisCts); title(<span class="string">'cts-dis truth'</span>);colorbar;
+figure; imagesc(theta'); title(<span class="string">'cts-dis recover'</span>);colorbar;
+</pre><img vspace="5" hspace="5" src="syntheticExp_01.png" alt=""> <img vspace="5" hspace="5" src="syntheticExp_02.png" alt=""> <img vspace="5" hspace="5" src="syntheticExp_03.png" alt=""> <img vspace="5" hspace="5" src="syntheticExp_04.png" alt=""> <img vspace="5" hspace="5" src="syntheticExp_05.png" alt=""> <img vspace="5" hspace="5" src="syntheticExp_06.png" alt=""> <p class="footer"><br>
+      Published with MATLAB&reg; 7.11<br></p></div><!--
+##### SOURCE BEGIN #####
+%% Demo of the synthetic experiments.
+%% Requires UGM at http://www.di.ens.fr/~mschmidt/Software/UGM_2009.zip
+%% Requires TFOCS at http://tfocs.stanford.edu
+%% Graph parameters
+p=10; % number of cts variables
+q=10; % number of discrete variables
+n=2000; % sample size
+e=ones(n,1);
+L=2*ones(q,1); % levels in each categorical variable
+Ltot=sum(L);
+%% Create params
+rhocts=.25;
+thcts=eye(p);
+for i=1:p-1
+    thcts(i,i+1)=rhocts;
+    thcts(i+1,i)=rhocts;
+end
+
+thdiscts=cell(p,q);
+maskDisCts=sparse(p,q);
+for i=1:min(p,q)
+    rhocd=.5;
+    maskDisCts(i,i)=1;
+    thdiscts{i,i}=[rhocd; -rhocd];
+end
+
+thdis=cell(q,q);
+maskDis = sparse(diag(ones(q-1,1),1));
+[R J]=find(maskDis);
+for e=1:length(R)
+        thdis{R(e),J(e)}=.5*[1 -1; -1 1]; % attractive
+end
+%% sample
+mixSample;
+%% Init opt variables
+theta=zeros(Ltot,p); % cts-dis params
+beta=zeros(p,p); % negative of the precision matrix
+betad=ones(p,1); % diagonal of the precision matrix
+alpha1=zeros(p,1); % cts node potential param
+alpha2=zeros(Ltot,1); % dis node potential param
+phi=zeros(Ltot,Ltot); % dis edge potential params
+Lsum=[0;cumsum(L)];
+x=paramToVecv5(beta,betad,theta,phi,alpha1,alpha2,L,n,p,q);
+
+%% call TFOCS
+lam=5*sqrt(log(p+q)/n);
+smoothF= @(x)lhoodTfocsv5(x,D,X,Y,L,n,p,q);
+nonsmoothH=@(varargin) tfocsProxGroupv6(lam,L,n,p,q, varargin{:} ); % only returns value of nonsmooth
+opts.alg='N83';  opts.maxIts=800; opts.printEvery=100; opts.saveHist=true;
+opts.restart=-10^4;
+opts.tol=1e-10;
+[xopt out opts]=tfocs(smoothF, {}, nonsmoothH, x,opts);
+[beta betad theta phi alpha1 alpha2]= vecToParamv5(xopt,L,n,p,q);
+%% Plot parameters
+close all;
+figure(1); imagesc(triu(thcts-diag(diag(thcts)))); title('cts truth'); colorbar;
+figure(2); imagesc(-beta); title('cts recover'); colorbar;
+figure(3); imagesc(maskDis); title('discrete truth');colorbar;
+figure; imagesc(phi); title('dis recover');colorbar;
+figure; imagesc(maskDisCts); title('cts-dis truth');colorbar;
+figure; imagesc(theta'); title('cts-dis recover');colorbar;
+
+##### SOURCE END #####
+--></body></html>

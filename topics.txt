@@ -1,0 +1,21 @@
+1. Introduction to Topics and Methods from Linear Algebra	
+
+2. Methods from Linear Algebra (Per-turbation Theory)	Slides 	
+
+3.Concentration Inequalities (Sub-gaussian RV, Subexp RV, Berntsein).	
+
+4. Uniform Convergence (Epsilon-Net, Matrix concentration)	
+	
+5. Applications to Statistical Learning (Covariance Estimation, Matrix Completion, PCA, Graph Models)	
+	
+6. Stochastic Optimization (First-order Methods)	
+
+7. Matrix Factorization and Simple Neural Networks 
+
+8. Backpropagation and Automatic Differentiation	
+
+9. Architectures in Deep Learning
+	
+10. Generalization in Deep Learning
+
+	
