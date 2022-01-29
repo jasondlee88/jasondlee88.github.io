@@ -1,0 +1,9 @@
+# jemdoc: menu{MENU}{learningmgm.html}
+= Learning Mixed Graphical Models
+== 
+== Paper
+ The full paper can be found at [http://arxiv.org/abs/1205.5012 arXiv.] In this work, we propose a new pairwise graphical model over continuous and discrete variables. This model generalizes both the Gaussian MRF and the usual pairwise discrete MRF. The learned model is sparse by using appropriate group-sparsity regularizers for each edge.
+== Code 
+ Code for reproducing these results is [syntheticExp/syntheticExp.zip here] and requires [http://www.di.ens.fr/~mschmidt/Software/UGM_2009.zip UGM] and [http://tfocs.stanford.edu TFOCS]. See here for a [syntheticExp/syntheticExp.html demo].
+ 
+ 

@@ -1,0 +1,16 @@
+# jemdoc: menu{MENU}{talks.html}
+=Talk Slides
+
+- Simons Institute Tutorial on Foundations of Deep Learning\n
+[slides/simons_tutorial_Overparam_opt_DL.pdf Slides] [https://www.youtube.com/watch?v=uC2IGoTE2u4 Video]
+- Foundations of Deep Learning: SGD, Overparametrization, and Generalization\n
+[slides/foundations_DL.pdf Slides]
+- Selective Inference for Full Model Parameters and Communication-efficient Lasso\n
+[slides/selective_inference_and_debiasing.pdf Slides]
+- Selective Inference via the Condition on Selection Framework: Inference after Variable Selection\n
+[jobtalk.pdf Slides]
+- Exact Inference after Model Selection via Lasso and Marginal Screening\n
+[slides/exact_inference_duke_slides.pdf Slides]
+- Proximal Newton Methods for Composite Optimization\n [slides/proxnewton_slides_alpine.pdf Slides]
+- Structure Learning of Mixed Graphical Models\n [slides/MixedGM_Proxnewton_icml2014.pdf Slides]
+

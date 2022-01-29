@@ -1,0 +1,10 @@
+# jemdoc: menu{MENU}{software.html}
+=Software
+
+- Scalable Methods for Nonnegative Matrix Factorizations.\n
+[https://github.com/arbenson/mrnmf \[Code\]]	[https://www.opensciencedatacloud.org/publicdata/heat-transfer/ \[Heat Transfer Data\]]	[http://stanford.edu/~arbenson/data/FC_40k.txt \[Flow Cytometry Data\]]
+- Proximal Newton Package (PNOPT)\n
+[http://www.stanford.edu/group/SOL/software/pnopt \[PNOPT package\]]
+- Learning Mixed Graphical Models\n
+[learningmgm.html \[Project Homepage\]] [syntheticExp/syntheticExp.zip \[Code\]]
+
