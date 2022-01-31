@@ -54,7 +54,8 @@ Simon S. Du, Sham M. Kakade, Jason D. Lee, Shachar Lovett, Gaurav Mahajan, Wen S
 ICML 2021.
 
 - [https://arxiv.org/abs/2102.08903 Provably Efficient Policy Gradient Methods for Two-Player Zero-Sum Markov Games.]\n
-Yulai Zhao, Yuandong Tian, Jason D. Lee, and Simon S. Du
+Yulai Zhao, Yuandong Tian, Jason D. Lee, and Simon S. Du.\n
+AISTATS 2022.
 
 - [https://arxiv.org/abs/2106.12108 Near-Optimal Linear Regression under Distribution Shift.]\n
 Qi Lei, Wei Hu, and Jason D. Lee.\n
@@ -66,6 +67,7 @@ ICML 2021.
 
 - [https://arxiv.org/abs/2102.11448 MUSBO: Model-based Uncertainty Regularized and Sample Efficient Batch Optimization for Deployment Constrained Reinforcement Learning.]\n
 DiJia Su, Jason D. Lee, John M. Mulvey, and H. Vincent Poor.\n
+ICASSP 2022.
 
 - [https://arxiv.org/abs/2010.05843 How Important is the Train-Validation Split in Meta-Learning?]\n
 Yu Bai, Minshuo Chen, Pan Zhou, Tuo Zhao, Jason D. Lee, Sham Kakade, Huan Wang, and Caiming Xiong.\n
@@ -236,6 +238,14 @@ Submitted.
 
 
 == Journal Publications
+- [https://arxiv.org/abs/1905.10027 Neural Q-Learning Converges to Global Optima]\n
+Qi Cai, Zhuoran Yang, Jason D. Lee, and Zhaoran Wang.\n
+Mathematics of Operations (short version at NeurIPS).
+
+- [https://ieeexplore.ieee.org/document/9503322 Linearized ADMM Converges to Second-Order Stationary Points for Non-Convex Problems]\n
+Songtao Lu, Jason D. Lee, Meisam Razaviyayn, Mingyi Hong.\n
+IEEE Transactions on Signal Processing.
+
 - [https://arxiv.org/abs/2004.02336 Distributed Estimation for Principal
 Component Analysis:  a Gap-free Approach.]\n
 Xi Chen, Jason D. Lee, He Li, and  Yun Yang.\n
