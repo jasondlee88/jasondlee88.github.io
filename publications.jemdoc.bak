@@ -2,25 +2,8 @@
 =Publications
 
 == Recent Papers 
-- [https://arxiv.org/abs/2206.12020 Provably Efficient Reinforcement Learning in
-Partially Observable Dynamical System.]\n
-Masatoshi Uehara, Ayush Sekhari, Jason D. Lee, Nathan Kallus, and Wen Sun.\n
-
-
-- [https://arxiv.org/abs/2206.12081 Computationally Efficient PAC RL in POMDPs with Latent Determinism and Conditional Embeddings.]\n
-Masatoshi Uehara, Ayush Sekhari, Jason D. Lee, Nathan Kallus, and Wen Sun.\n
-
 - [https://arxiv.org/abs/2202.04634 Offline Reinforcement Learning with Realizability and Single-policy Concentrability.]\n
 Wenhao Zhan, Baihe Huang, Audrey Huang, Nan Jiang, and Jason D. Lee.\n
-
-- [https://arxiv.org/abs/2206.03688 Identifying good directions to escape the NTK regime and efficiently learn low-degree plus sparse polynomials.]\n
-Eshaan Nichani, Yu Bai, and Jason D. Lee.\n
-
-- [https://arxiv.org/abs/2206.01588 Decentralized Optimistic Hyperpolicy Mirror Descent: Provably No-Regret Learning in Markov Games.] \n
-Wenhao Zhan, Jason D. Lee, and Zhuoran Yang. \n
-
-- [https://arxiv.org/abs/2205.09072 On the Effective Number of Linear Regions in Shallow Univariate ReLU Networks: Convergence Guarantees and Implicit Bias.]\n
-Itay Safran, Gal Vardi, and Jason D. Lee.\n
 
 - [https://arxiv.org/abs/2203.15664 Nearly Minimax Algorithms for Linear Bandits with Shared Representation.]\n
 Jiaqi Yang, Qi Lei, Jason D. Lee, and Simon S. Du. \n
