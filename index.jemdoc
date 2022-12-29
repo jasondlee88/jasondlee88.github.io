@@ -4,7 +4,7 @@
 ~~~
 {}{img_left}{jason.jpg}{Jason Lee}{150}(150}
 Jason D. Lee \n
-"firstname"+"lastname"@princeton.edu or [wechat.png WeChat]\n
+jasond\+mylastname\+88@gmail.com or [wechat.png WeChat]\n
 [http://scholar.google.com/citations?user=GR_DsT0AAAAJ&hl=en Google scholar] and [https://twitter.com/jasondeanlee Twitter] and [Jason_Lee_Bio.txt Talk Bio].\n
 ~~~
 
@@ -21,7 +21,7 @@ Jason D. Lee \n
 
 
 == About Me
-I am an assistant professor of [http://ece.princeton.edu/ Electrical and Computer Engineering] and [https://www.cs.princeton.edu/ Computer Science] (secondary) in Princeton University and a member of the [https://mltheory.cs.princeton.edu/ Theoretical Machine Learning Group]. Previously, I was a member of the [https://www.math.ias.edu/sp/Optimization_Statistics_and_Theoretical_Machine_Learning IAS] and an assistant professor at USC for three years. Before that, I was a postdoc in the Computer Science Department at UC Berkeley working with [http://www.cs.berkeley.edu/~jordan/ Michael I. Jordan], and also collaborated with [http://people.eecs.berkeley.edu/~brecht/ Ben Recht]. I received my PhD in [https://icme.stanford.edu/ Applied Math] advised by [http://www.stanford.edu/~hastie Trevor Hastie] and [http://statweb.stanford.edu/~jtaylo/ Jonathan Taylor]. I received a BS in Mathematics from Duke University advised by [http://www.math.duke.edu/~mauro/ Mauro Maggioni].
+I am an associate professor of [http://ece.princeton.edu/ Electrical and Computer Engineering] and [https://www.cs.princeton.edu/ Computer Science] (secondary) in Princeton University and a member of the [https://mltheory.cs.princeton.edu/ Theoretical Machine Learning Group]. Previously, I was a member of the [https://www.math.ias.edu/sp/Optimization_Statistics_and_Theoretical_Machine_Learning IAS] and an assistant professor at USC for three years. Before that, I was a postdoc in the Computer Science Department at UC Berkeley working with [http://www.cs.berkeley.edu/~jordan/ Michael I. Jordan], and also collaborated with [http://people.eecs.berkeley.edu/~brecht/ Ben Recht]. I received my PhD in [https://icme.stanford.edu/ Applied Math] advised by [http://www.stanford.edu/~hastie Trevor Hastie] and [http://statweb.stanford.edu/~jtaylo/ Jonathan Taylor]. I received a BS in Mathematics from Duke University advised by [http://www.math.duke.edu/~mauro/ Mauro Maggioni].
 I am a native of Cupertino, CA.\n
 
 
@@ -33,7 +33,7 @@ My research interests are broadly in
 
 ~~~
 {Students, Visitors, and Postdocs}
-*Princeton PhD students* interested in machine learning, statistics, or optimization research, please contact me; I advise students in Computer Science, Electrical Engineering, Math, ORFE, and PACM. I am recruiting *PhD students* and *postdoctoral scholars* starting in 2021 at Princeton University, please email me a CV apply.  \n
+*Princeton PhD students* interested in machine learning, statistics, or optimization research, please contact me; I advise students in Computer Science, Electrical Engineering, Math, ORFE, and PACM. I am recruiting *PhD students* and *postdoctoral scholars* starting in 2023 at Princeton University, please email me a CV apply.  \n
 
 My current focus is on machine learning with a focus on foundations of deep learning, representation learning, and deep reinforcement learning. I have lectured on the Foudations of Deep Learning at MIT [https://www.youtube.com/watch?v=vtsjtB6RamE&t=3s Video] and [slides/foundations_DL.pdf Slides]; my tutorial at the Simons Institute:  [slides/simons_tutorial_Overparam_opt_DL.pdf  Slides] and [https://www.youtube.com/watch?v=uC2IGoTE2u4&t=1162s Video]; and my tutorial at Machine Learning Summer School (MLSS 2021): [https://youtu.be/ukxzDErn06E Video] and [slides/beyond_ntk.pdf  Slides].
 
@@ -44,13 +44,13 @@ I am also happy to host *remote visitors*. Summer visitors please contact me aro
 ~~~
 
 == Awards
-- *NSF Career Award* 2022.
+- *NSF Career Award* 2022
 
-- *ONR Young Investigator Award* 2021.
+- *ONR Young Investigator Award* 2021
 
-- *Sloan Research Fellow* in Computer Science, Alfred P. Sloan Foundation
+- *Sloan Research Fellow* in Computer Science 2019
 
-- NIPS 2016 *Best Student Paper Award* for ``Matrix Completion has no Spurious Local Minima".
+- NIPS 2016 *Best Student Paper Award* for ``Matrix Completion has no Spurious Local Minima"
 
 - Finalist for Best Paper Prize for Young Researchers in Continuous Optimization
 
@@ -60,30 +60,26 @@ I am also happy to host *remote visitors*. Summer visitors please contact me aro
 
 
 == Selected Publications
+- [https://arxiv.org/abs/2209.15594 Self-Stabilization: The Implicit Bias of Gradient Descent at the Edge of Stability.]\n
+Alex Damian, Eshaan Nichani, and Jason D. Lee.\n
+
+- [https://arxiv.org/abs/2212.03714 Reconstructing Training Data from the Loss Gradient, Provably.]\n
+Zihan Wang, Jason D. Lee, Qi Lei.\n
+
+
+- [https://arxiv.org/abs/2206.15144 Neural Networks can Learn Representations with Gradient Descent.]\n
+Alex Damian, Jason D. Lee, and Mahdi Soltanolkotabi.\n
+COLT 2022.
+
 
 - [https://arxiv.org/abs/2202.04634 Offline Reinforcement Learning with Realizability and Single-policy Concentrability.]\n
 Wenhao Zhan, Baihe Huang, Audrey Huang, Nan Jiang, and Jason D. Lee.\n
-[https://youtu.be/RMyCkX_cCoo Video] and [slides/pro-rl-jl.pdf Slides]. 
+[https://youtu.be/RMyCkX_cCoo Video] and [slides/pro-rl-jl.pdf Slides]. COLT 2022.
 
-
-- [https://arxiv.org/abs/2206.12020 Provably Efficient Reinforcement Learning in
-Partially Observable Dynamical System.]\n
-Masatoshi Uehara, Ayush Sekhari, Jason D. Lee, Nathan Kallus, and Wen Sun.\n
-
-- [https://arxiv.org/abs/2206.03688 Identifying good directions to escape the NTK regime and efficiently learn low-degree plus sparse polynomials.]\n
-Eshaan Nichani, Yu Bai, and Jason D. Lee.\n
-
-- [https://arxiv.org/abs/2107.04518 Optimal Gradient-based Algorithms for Non-concave Bandit Optimization.]\n
- Baihe Huang, Kaixuan Huang, Sham M. Kakade, Jason D. Lee, Qi Lei, Runzhe Wang, and Jiaqi Yang.\n
- NeurIPS 2021. [https://youtu.be/3ckd9ixqO3A Video] and [slides/polynomial_bandit_slides.pdf Slides] from Qi Lei.
 
 - [https://arxiv.org/abs/2106.06530 Label Noise SGD Provably Prefers Flat Global Minimizers.]\n
 Alex Damian, Tengyu Ma, and Jason D. Lee.\n
  NeurIPS 2021.
-
-- [https://arxiv.org/abs/2103.10897 Bilinear Classes: A Structural Framework for Provable Generalization in RL.]\n
-Simon S. Du, Sham M. Kakade, Jason D. Lee, Shachar Lovett, Gaurav Mahajan, Wen Sun, and Ruosong Wang.\n
-ICML 2021. [https://youtu.be/OUJ-wP77VP0 Video] and [slides/bilinera-slides.pdf Slides].
 
 - [https://arxiv.org/abs/2002.09434 Few-Shot Learning via Learning the Representation, Provably.]\n
 Simon S. Du, Wei Hu, Sham M. Kakade, Jason D. Lee, and Qi Lei.\n
@@ -93,9 +89,6 @@ ICLR 2021. [https://youtu.be/YClfx3HGV_8 Video] and [slides/representation_learn
 Jason D. Lee, Qi Lei, Nikunj Saunshi, and Jiacheng Zhuo.\n
  NeurIPS 2021. [https://youtu.be/YClfx3HGV_8 Video] and [slides/representation_learning_slides.pdf Slides].
 
-- [https://arxiv.org/abs/2006.13436 Towards Understanding Hierarchical Learning: Benefits of Neural Representations.]\n
-Minshuo Chen, Yu Bai, Jason D. Lee, Tuo Zhao, Huan Wang, Caiming Xiong, and Richard Socher.\n
-NeurIPS 2020. [https://youtu.be/ukxzDErn06E Video] and [slides/beyond_ntk.pdf  Slides].
 
 - [https://arxiv.org/abs/1910.01619 Beyond Linearization: On Quadratic and Higher-Order Approximation of Wide Neural Networks .]\n
 Yu Bai and Jason D. Lee.\n

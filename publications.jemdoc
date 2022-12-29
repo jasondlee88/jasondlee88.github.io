@@ -1,32 +1,61 @@
 # jemdoc: menu{MENU}{publications.html}, analytics{UA-104083228-1}
 =Publications
 
-== Recent Papers 
+== Preprints and Conference Publications
+- [https://arxiv.org/abs/2212.03714 Reconstructing Training Data from the Loss Gradient, Provably.]\n
+Zihan Wang, Jason D. Lee, Qi Lei.\n
+
+- [https://arxiv.org/abs/2209.15594 Self-Stabilization: The Implicit Bias of Gradient Descent at the Edge of Stability.]\n
+Alex Damian, Eshaan Nichani, and Jason D. Lee.\n
+
+- [https://arxiv.org/abs/2207.04036 Implicit Bias of Gradient Descent on Reparametrized Models: On Equivalence to Mirror Descent.]\n
+Zhiyuan Li, Tianhao Wang, Jason D. Lee, and Sanjeev Arora.\n
+NeurIPS 2022.
+
+- [https://arxiv.org/abs/2207.05738 PAC Reinforcement Learning for Predictive State Representations.]\n
+Wenhao Zhan, Masatoshi Uehara, Wen Sun, and Jason D. Lee.
+
+- [https://arxiv.org/abs/2206.15144 Neural Networks can Learn Representations with Gradient Descent.]\n
+Alex Damian, Jason D. Lee, and Mahdi Soltanolkotabi.\n
+COLT 2022.
+
 - [https://arxiv.org/abs/2206.12020 Provably Efficient Reinforcement Learning in
 Partially Observable Dynamical System.]\n
 Masatoshi Uehara, Ayush Sekhari, Jason D. Lee, Nathan Kallus, and Wen Sun.\n
+NeurIPS 2022.
 
+- [https://arxiv.org/abs/2210.06705 From Gradient Flow on Population Loss to Learning with Stochastic Gradient Descent.]\n
+Christopher De Sa, Satyen Kale, Jason D. Lee, Ayush Sekhari, and Karthik Sridharan.\n
+NeurIPS 2022.
 
 - [https://arxiv.org/abs/2206.12081 Computationally Efficient PAC RL in POMDPs with Latent Determinism and Conditional Embeddings.]\n
 Masatoshi Uehara, Ayush Sekhari, Jason D. Lee, Nathan Kallus, and Wen Sun.\n
 
+
+
+
 - [https://arxiv.org/abs/2202.04634 Offline Reinforcement Learning with Realizability and Single-policy Concentrability.]\n
 Wenhao Zhan, Baihe Huang, Audrey Huang, Nan Jiang, and Jason D. Lee.\n
+COLT 2022.
+
 
 - [https://arxiv.org/abs/2206.03688 Identifying good directions to escape the NTK regime and efficiently learn low-degree plus sparse polynomials.]\n
 Eshaan Nichani, Yu Bai, and Jason D. Lee.\n
+NeurIPS 2022.
 
 - [https://arxiv.org/abs/2206.01588 Decentralized Optimistic Hyperpolicy Mirror Descent: Provably No-Regret Learning in Markov Games.] \n
 Wenhao Zhan, Jason D. Lee, and Zhuoran Yang. \n
 
 - [https://arxiv.org/abs/2205.09072 On the Effective Number of Linear Regions in Shallow Univariate ReLU Networks: Convergence Guarantees and Implicit Bias.]\n
 Itay Safran, Gal Vardi, and Jason D. Lee.\n
+NeurIPS 2022.
 
 - [https://arxiv.org/abs/2203.15664 Nearly Minimax Algorithms for Linear Bandits with Shared Representation.]\n
 Jiaqi Yang, Qi Lei, Jason D. Lee, and Simon S. Du. \n
 
 - [https://arxiv.org/abs/2112.02393 Optimization-Based Separations for Neural Networks.]\n
 Itay Safran and Jason D. Lee.\n
+COLT 2022.
 
 - [https://arxiv.org/abs/2110.09507 Provable Hierarchy-Based Meta-Reinforcement Learning.]\n
 Kurtland Chua, Qi Lei, and Jason D. Lee.\n
@@ -36,7 +65,7 @@ Xinyi Chen, Edgar Minasyan, Jason D. Lee, Elad Hazan.\n
 
 - [https://arxiv.org/abs/2107.04518 Optimal Gradient-based Algorithms for Non-concave Bandit Optimization.]\n
  Baihe Huang, Kaixuan Huang, Sham M. Kakade, Jason D. Lee, Qi Lei, Runzhe Wang, and Jiaqi Yang.\n
-  NeurIPS 2021.
+  NeurIPS 2021. [https://youtu.be/3ckd9ixqO3A Video] and [slides/polynomial_bandit_slides.pdf Slides] from Qi Lei.
  
 - [https://arxiv.org/abs/2107.06466 Going Beyond Linear RL: Sample Efficient Neural Function Approximation.]\n
  Baihe Huang, Kaixuan Huang, Sham M. Kakade, Jason D. Lee, Qi Lei, Runzhe Wang, and Jiaqi Yang.\n
@@ -257,89 +286,7 @@ Jiajun Luo, Chenwei Wu, and Jason D. Lee.\n
 
 - [https://arxiv.org/abs/1708.08552 An inexact subsampled proximal Newton-type method for large-scale machine learning].\n
 Xuanqing Liu, Cho-Jui Hsieh, Jason D. Lee, and Yuekai Sun.\n
-Submitted.
 
-
-== Journal Publications
-- [https://arxiv.org/abs/1905.10027 Neural Q-Learning Converges to Global Optima]\n
-Qi Cai, Zhuoran Yang, Jason D. Lee, and Zhaoran Wang.\n
-Mathematics of Operations (short version at NeurIPS).
-
-- [https://ieeexplore.ieee.org/document/9503322 Linearized ADMM Converges to Second-Order Stationary Points for Non-Convex Problems]\n
-Songtao Lu, Jason D. Lee, Meisam Razaviyayn, Mingyi Hong.\n
-IEEE Transactions on Signal Processing.
-
-- [https://arxiv.org/abs/2004.02336 Distributed Estimation for Principal
-Component Analysis:  a Gap-free Approach.]\n
-Xi Chen, Jason D. Lee, He Li, and  Yun Yang.\n
-Journal of the American Statistical Association.
-
-- [https://arxiv.org/abs/1704.07971 A Flexible Framework for Hypothesis Testing in High-dimensions].\n
-Adel Javanmard and Jason D. Lee. \n
-Journal of the Royal Statistical Society Series B.
-
-- [https://arxiv.org/abs/1610.08637 Statistical Inference for Model Parameters in Stochastic Gradient Descent].\n
-Xi Chen, Jason D. Lee, Xin T. Tong, and Yichen Zhang. \n
-Annals of Statistics.
-
-- [https://arxiv.org/abs/1710.07406 First-order Methods Almost Always Avoid Saddle Points].\n
-Jason D. Lee, Ioannis Panageas, Georgios Piliouras, Max Simchowitz, Michael I. Jordan, and Benjamin Recht.\n
-Math Programming.
-
-- [https://arxiv.org/abs/1804.07795 Stochastic subgradient method converges on tame functions].\n
-Damek Davis, Dmitriy Drusvyatskiy, Sham Kakade, and Jason D. Lee.\n
-Foundations of Computational Mathematics.
-
-- [https://arxiv.org/abs/1707.04926 Theoretical insights into the optimization landscape of over-parameterized shallow neural networks].\n
-Mahdi Soltanolkotabi, Adel Javanmard, and Jason D. Lee \n
-IEEE Transactions on Information Theory 2018.
-
-- [https://arxiv.org/abs/1605.07689 Communication-efficient distributed statistical learning].\n
-Michael I. Jordan, Jason D. Lee, and Yun Yang.\n
-Journal of the American Statistical Association 2018.
- 
-- [http://arxiv.org/pdf/1507.07595.pdf Distributed Stochastic Variance Reduced Gradient Methods]. \n
-Jason D. Lee, Qihang Lin, Tengyu Ma, and Tianbao Yang.\n
-Journal of Machine Learning Research 2017.
-
- - [http://arxiv.org/abs/1503.04337 Communication-Efficient Distributed Sparse Regression]. \n
-Jason D. Lee, Qiang Liu, Yuekai Sun, and Jonathan Taylor.\n
-Journal of Machine Learning Research 2017.
-
-- [https://arxiv.org/abs/1610.03045 Sketching Meets Random Projection in the Dual: A Provable Recovery Algorithm for Big and High-dimensional Data]. \n
-Jialei Wang, Jason D. Lee, Mehrdad Mahdavi, Mladen Kolar, and Nathan Srebro. \n
-Electronic Journal of Statistics 2017.
-
-- [http://arxiv.org/abs/1311.6238v4 Exact Post-Selection Inference with the Lasso]. \n
-Jason D. Lee, Dennis L Sun, Yuekai Sun, and Jonathan Taylor.\n
-Annals of Statistics 2016.\n
-
-- [http://arxiv.org/pdf/1507.00039v1.pdf Selective Inference and Learning Mixed Graphical Models].\n
-PhD Thesis \n
- Chapter 3 contains unpublished results on combining selective inference with the debiased lasso, knockoff, and proposes a general algorithm for selective inference.\n
- 
-- [http://arxiv.org/abs/1410.2596 Matrix Completion and Low-Rank SVD via Fast Alternating Least Squares]. \n
-Trevor Hastie, Rahul Mazumder, Jason D. Lee, and Reza Zadeh. \n
-Journal of Machine Learning Research 2015. \n
-[http://git.io/sparkfastals \[Spark Implementation\]] [http://cran.r-project.org/web/packages/softImpute/index.html \[R Implementation\]] 
-
-- [http://arxiv.org/abs/1305.7477 On Model Selection Consistency of M-Estimators with Geometrically Decomposable Penalties]. \n
-Jason D. Lee, Yuekai Sun, and Jonathan Taylor. \n
-Electronic Journal of Statistics 2015.
-
-- [http://amstat.tandfonline.com/doi/abs/10.1080/10618600.2014.900500 Learning the Structure of Mixed Graphical Models]. \n
-Jason D. Lee and Trevor Hastie. \n
-Journal of Computational and Graphical Statistics 2014.\n
-[learningmgm.html \[Code\]] [http://arxiv.org/abs/1205.5012 \[arXiv\]]
-
-- [http://arxiv.org/abs/1206.1623 Proximal Newton-type Methods for Minimizing Convex Objective Functions in Composite Form].\n
-Jason D. Lee, Yuekai Sun, and Michael Saunders. \n
-SIAM Journal on Optimization 2014.\n
-[http://www.stanford.edu/group/SOL/software/pnopt PNOPT package]
-
-
-
-== Conference Publications
 - [https://arxiv.org/abs/1705.10412 Gradient Descent Can Take Exponential Time to Escape Saddle Points].\n
 Simon S. Du, Chi Jin, Jason D. Lee, Michael I. Jordan, Barnabas Poczos, and Aarti Singh. \n
 Neural Information Processing Systems (NIPS 2017)
@@ -417,7 +364,84 @@ Markus Kliegl, Jason D. Lee, Jun Li, Xinchao Zhang, Chuanxiong Guo, and David Ri
 - [papers/ssp09.pdf Estimation of Intrinsic Dimensionality of Samples from Noisy Low-Dimensional Manifolds in High Dimensions with Multiscale SVD\n]
 Anna V. Little, Jason D. Lee, and Mauro Maggioni. \n
 IEEE Statistical Signal Processing Workshop (SSP 2009). 
-== Other Publicatons
+== Journal Publications
+- [https://arxiv.org/abs/1905.10027 Neural Q-Learning Converges to Global Optima]\n
+Qi Cai, Zhuoran Yang, Jason D. Lee, and Zhaoran Wang.\n
+Mathematics of Operations (short version at NeurIPS).
+
+- [https://ieeexplore.ieee.org/document/9503322 Linearized ADMM Converges to Second-Order Stationary Points for Non-Convex Problems]\n
+Songtao Lu, Jason D. Lee, Meisam Razaviyayn, Mingyi Hong.\n
+IEEE Transactions on Signal Processing.
+
+- [https://arxiv.org/abs/2004.02336 Distributed Estimation for Principal
+Component Analysis:  a Gap-free Approach.]\n
+Xi Chen, Jason D. Lee, He Li, and  Yun Yang.\n
+Journal of the American Statistical Association.
+
+- [https://arxiv.org/abs/1704.07971 A Flexible Framework for Hypothesis Testing in High-dimensions].\n
+Adel Javanmard and Jason D. Lee. \n
+Journal of the Royal Statistical Society Series B.
+
+- [https://arxiv.org/abs/1610.08637 Statistical Inference for Model Parameters in Stochastic Gradient Descent].\n
+Xi Chen, Jason D. Lee, Xin T. Tong, and Yichen Zhang. \n
+Annals of Statistics.
+
+- [https://arxiv.org/abs/1710.07406 First-order Methods Almost Always Avoid Saddle Points].\n
+Jason D. Lee, Ioannis Panageas, Georgios Piliouras, Max Simchowitz, Michael I. Jordan, and Benjamin Recht.\n
+Math Programming.
+
+- [https://arxiv.org/abs/1804.07795 Stochastic subgradient method converges on tame functions].\n
+Damek Davis, Dmitriy Drusvyatskiy, Sham Kakade, and Jason D. Lee.\n
+Foundations of Computational Mathematics.
+
+- [https://arxiv.org/abs/1707.04926 Theoretical insights into the optimization landscape of over-parameterized shallow neural networks].\n
+Mahdi Soltanolkotabi, Adel Javanmard, and Jason D. Lee \n
+IEEE Transactions on Information Theory 2018.
+
+- [https://arxiv.org/abs/1605.07689 Communication-efficient distributed statistical learning].\n
+Michael I. Jordan, Jason D. Lee, and Yun Yang.\n
+Journal of the American Statistical Association 2018.
+ 
+- [http://arxiv.org/pdf/1507.07595.pdf Distributed Stochastic Variance Reduced Gradient Methods]. \n
+Jason D. Lee, Qihang Lin, Tengyu Ma, and Tianbao Yang.\n
+Journal of Machine Learning Research 2017.
+
+ - [http://arxiv.org/abs/1503.04337 Communication-Efficient Distributed Sparse Regression]. \n
+Jason D. Lee, Qiang Liu, Yuekai Sun, and Jonathan Taylor.\n
+Journal of Machine Learning Research 2017.
+
+- [https://arxiv.org/abs/1610.03045 Sketching Meets Random Projection in the Dual: A Provable Recovery Algorithm for Big and High-dimensional Data]. \n
+Jialei Wang, Jason D. Lee, Mehrdad Mahdavi, Mladen Kolar, and Nathan Srebro. \n
+Electronic Journal of Statistics 2017.
+
+- [http://arxiv.org/abs/1311.6238v4 Exact Post-Selection Inference with the Lasso]. \n
+Jason D. Lee, Dennis L Sun, Yuekai Sun, and Jonathan Taylor.\n
+Annals of Statistics 2016.\n
+
+- [http://arxiv.org/pdf/1507.00039v1.pdf Selective Inference and Learning Mixed Graphical Models].\n
+PhD Thesis \n
+ Chapter 3 contains unpublished results on combining selective inference with the debiased lasso, knockoff, and proposes a general algorithm for selective inference.\n
+ 
+- [http://arxiv.org/abs/1410.2596 Matrix Completion and Low-Rank SVD via Fast Alternating Least Squares]. \n
+Trevor Hastie, Rahul Mazumder, Jason D. Lee, and Reza Zadeh. \n
+Journal of Machine Learning Research 2015. \n
+[http://git.io/sparkfastals \[Spark Implementation\]] [http://cran.r-project.org/web/packages/softImpute/index.html \[R Implementation\]] 
+
+- [http://arxiv.org/abs/1305.7477 On Model Selection Consistency of M-Estimators with Geometrically Decomposable Penalties]. \n
+Jason D. Lee, Yuekai Sun, and Jonathan Taylor. \n
+Electronic Journal of Statistics 2015.
+
+- [http://amstat.tandfonline.com/doi/abs/10.1080/10618600.2014.900500 Learning the Structure of Mixed Graphical Models]. \n
+Jason D. Lee and Trevor Hastie. \n
+Journal of Computational and Graphical Statistics 2014.\n
+[learningmgm.html \[Code\]] [http://arxiv.org/abs/1205.5012 \[arXiv\]]
+
+- [http://arxiv.org/abs/1206.1623 Proximal Newton-type Methods for Minimizing Convex Objective Functions in Composite Form].\n
+Jason D. Lee, Yuekai Sun, and Michael Saunders. \n
+SIAM Journal on Optimization 2014.\n
+[http://www.stanford.edu/group/SOL/software/pnopt PNOPT package]
+
+== Other Publications
 - [http://opt.kyb.tuebingen.mpg.de/papers/opt2012_paper_21.pdf Analysis of Inexact Proximal Newton-type Methods.\n]
 Jason D. Lee, Yuekai Sun, and Michael Saunders. \n
 Neural Information Processing Systems Optimization and Machine Learning Workshop 2012.\n

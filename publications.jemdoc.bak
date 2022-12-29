@@ -1,9 +1,26 @@
 # jemdoc: menu{MENU}{publications.html}, analytics{UA-104083228-1}
 =Publications
 
-== Recent Papers 
+== Preprints and Conference Papers
+- [https://arxiv.org/abs/2206.12020 Provably Efficient Reinforcement Learning in
+Partially Observable Dynamical System.]\n
+Masatoshi Uehara, Ayush Sekhari, Jason D. Lee, Nathan Kallus, and Wen Sun.\n
+
+
+- [https://arxiv.org/abs/2206.12081 Computationally Efficient PAC RL in POMDPs with Latent Determinism and Conditional Embeddings.]\n
+Masatoshi Uehara, Ayush Sekhari, Jason D. Lee, Nathan Kallus, and Wen Sun.\n
+
 - [https://arxiv.org/abs/2202.04634 Offline Reinforcement Learning with Realizability and Single-policy Concentrability.]\n
 Wenhao Zhan, Baihe Huang, Audrey Huang, Nan Jiang, and Jason D. Lee.\n
+
+- [https://arxiv.org/abs/2206.03688 Identifying good directions to escape the NTK regime and efficiently learn low-degree plus sparse polynomials.]\n
+Eshaan Nichani, Yu Bai, and Jason D. Lee.\n
+
+- [https://arxiv.org/abs/2206.01588 Decentralized Optimistic Hyperpolicy Mirror Descent: Provably No-Regret Learning in Markov Games.] \n
+Wenhao Zhan, Jason D. Lee, and Zhuoran Yang. \n
+
+- [https://arxiv.org/abs/2205.09072 On the Effective Number of Linear Regions in Shallow Univariate ReLU Networks: Convergence Guarantees and Implicit Bias.]\n
+Itay Safran, Gal Vardi, and Jason D. Lee.\n
 
 - [https://arxiv.org/abs/2203.15664 Nearly Minimax Algorithms for Linear Bandits with Shared Representation.]\n
 Jiaqi Yang, Qi Lei, Jason D. Lee, and Simon S. Du. \n
@@ -19,7 +36,7 @@ Xinyi Chen, Edgar Minasyan, Jason D. Lee, Elad Hazan.\n
 
 - [https://arxiv.org/abs/2107.04518 Optimal Gradient-based Algorithms for Non-concave Bandit Optimization.]\n
  Baihe Huang, Kaixuan Huang, Sham M. Kakade, Jason D. Lee, Qi Lei, Runzhe Wang, and Jiaqi Yang.\n
-  NeurIPS 2021.
+  NeurIPS 2021. [https://youtu.be/3ckd9ixqO3A Video] and [slides/polynomial_bandit_slides.pdf Slides] from Qi Lei.
  
 - [https://arxiv.org/abs/2107.06466 Going Beyond Linear RL: Sample Efficient Neural Function Approximation.]\n
  Baihe Huang, Kaixuan Huang, Sham M. Kakade, Jason D. Lee, Qi Lei, Runzhe Wang, and Jiaqi Yang.\n
@@ -240,8 +257,84 @@ Jiajun Luo, Chenwei Wu, and Jason D. Lee.\n
 
 - [https://arxiv.org/abs/1708.08552 An inexact subsampled proximal Newton-type method for large-scale machine learning].\n
 Xuanqing Liu, Cho-Jui Hsieh, Jason D. Lee, and Yuekai Sun.\n
-Submitted.
 
+- [https://arxiv.org/abs/1705.10412 Gradient Descent Can Take Exponential Time to Escape Saddle Points].\n
+Simon S. Du, Chi Jin, Jason D. Lee, Michael I. Jordan, Barnabas Poczos, and Aarti Singh. \n
+Neural Information Processing Systems (NIPS 2017)
+
+- [http://arxiv.org/abs/1511.07948 Learning Halfspaces and Neural Networks with Random Initialization].\n
+Yuchen Zhang, Jason D. Lee, Martin Wainwright, and Michael I. Jordan.\n
+AI & Statistics (AISTATS 2017) .
+
+- [https://arxiv.org/abs/1610.05247 Black-box Importance Sampling]. \n
+Qiang Liu and Jason D. Lee.\n
+AI & Statistics (AISTATS 2017) .
+
+- [https://arxiv.org/abs/1610.03045 Sketching Meets Random Projection in the Dual: A Provable Recovery Algorithm for Big and High-dimensional Data]. \n
+Jialei Wang, Jason D. Lee, Mehrdad Mahdavi, Mladen Kolar, and Nathan Srebro. \n
+AI & Statistics (AISTATS 2017) .
+
+- [http://arxiv.org/abs/1602.04915 Gradient Descent Converges to Minimizers].\n
+Jason D. Lee, Max Simchowitz, Michael I. Jordan, and Benjamin Recht.\n
+Conference on Learning Theory (COLT 2016). \n
+
+- [https://arxiv.org/abs/1605.07272 Matrix Completion has No Spurious Local Minimum].\n
+Rong Ge, Jason D. Lee, and Tengyu Ma.\n
+Neural Information Processing Systems (NIPS 2016), *Best Student Paper Award*. \n
+- [http://arxiv.org/abs/1510.03528 L1-regularized Neural Networks are Improperly Learnable in Polynomial Time].\n
+Yuchen Zhang, Jason D. Lee, and Michael I. Jordan.\n
+International Conference on Machine Learning (ICML 2016).
+
+- [http://arxiv.org/pdf/1602.03253.pdf A Kernelized Stein Discrepancy for Goodness-of-fit Tests and Model Evaluation].\n
+Qiang Liu, Jason D. Lee, and Michael I. Jordan.\n
+International Conference on Machine Learning (ICML 2016).
+
+- [https://papers.nips.cc/paper/5816-evaluating-the-statistical-significance-of-biclusters.pdf Evaluating the Statistical Significance of Submatrices.] \n
+Jason D. Lee, Yuekai Sun, and Jonathan Taylor. \n
+Neural Information Processing Systems (NIPS 2015). \n
+
+- [papers/marginal_screening.pdf Exact Post Model Selection Inference for Marginal Screening].\n
+Jason D. Lee and Jonathan Taylor.\n
+Neural Information Processing Systems (NIPS 2014). \n
+
+- [http://arxiv.org/abs/1402.6964 Scalable Methods for Nonnegative Matrix Factorizations of Near-Separable Tall-and-Skinny Matrices]\n
+Ausin R. Benson, Jason D. Lee, Bartek Rajwa, and David F. Gleich.\n
+Neural Information Processing Systems (NIPS 2014), Spotlight.\n
+[https://github.com/arbenson/mrnmf \[Code\]]	[https://www.opensciencedatacloud.org/publicdata/heat-transfer/ \[Heat Transfer Data\]]	[http://stanford.edu/~arbenson/data/FC_40k.txt \[Flow cytometry data\]]
+
+- [papers/using_multiple_samples.pdf  Using Multiple Samples to Learn Mixture Models.] \n
+Jason D. Lee, Ran Gilad-Bachrach, and Rich Caruana.\n
+Neural Information Processing Systems (NIPS 2013), Spotlight.
+
+- [papers/recovery_nips2013_camera.pdf On Model Selection Consistency of M-Estimators with Geometrically Decomposable Penalties.\n]
+Jason D. Lee, Yuekai Sun, and Jonathan Taylor.\n
+Neural Information Processing Systems (NIPS 2013).\n
+[http://arxiv.org/abs/1305.7477 Extended version] available on arXiv.
+
+- [http://jmlr.csail.mit.edu/proceedings/papers/v31/lee13a.pdf Learning Mixed Graphical Models\n]
+Jason D. Lee and Trevor Hastie.\n
+AI & Statistics (AISTATS) 2013.\n 
+[http://arxiv.org/abs/1205.5012 Extended version] available on arXiv. [learningmgm.html Project Homepage.] 
+
+- [http://papers.nips.cc/paper/4740-proximal-newton-type-methods-for-convex-optimization.pdf Proximal Newton-type Methods for Minimizing Convex Objective Functions in Composite Form.\n]
+Jason D. Lee, Yuekai Sun, and Michael Saunders.\n
+Neural Information Processing Systems (NIPS 2012).\n
+[http://arxiv.org/abs/1206.1623 \[arXiv\]] [http://www.stanford.edu/group/SOL/software/pnopt \[Code\]].
+
+- [papers/nips10.pdf Practical Large Scale Optimization for Max-norm Regularization.\n]
+Jason D. Lee, Benjamin Recht, Ruslan Salakhutdinov, Nati Srebro, and Joel Tropp.\n
+Neural Information Processing Systems (NIPS 2010).
+
+- [papers/sampta11.pdf Multiscale Dynamic Graphs\n]
+Jason D. Lee and  Mauro Maggioni.\n
+Sampling Theory and its Applications (SAMPTA) 2011.
+
+- [papers/infocom10.pdf Generalized DCell Structure for Load-Balanced Data Center Networks\n]
+Markus Kliegl, Jason D. Lee, Jun Li, Xinchao Zhang, Chuanxiong Guo, and David Rincon. \n IEEE International Conference on Computer Communications (INFOCOM 2010).
+
+- [papers/ssp09.pdf Estimation of Intrinsic Dimensionality of Samples from Noisy Low-Dimensional Manifolds in High Dimensions with Multiscale SVD\n]
+Anna V. Little, Jason D. Lee, and Mauro Maggioni. \n
+IEEE Statistical Signal Processing Workshop (SSP 2009). 
 
 == Journal Publications
 - [https://arxiv.org/abs/1905.10027 Neural Q-Learning Converges to Global Optima]\n
@@ -320,86 +413,6 @@ Jason D. Lee, Yuekai Sun, and Michael Saunders. \n
 SIAM Journal on Optimization 2014.\n
 [http://www.stanford.edu/group/SOL/software/pnopt PNOPT package]
 
-
-
-== Conference Publications
-- [https://arxiv.org/abs/1705.10412 Gradient Descent Can Take Exponential Time to Escape Saddle Points].\n
-Simon S. Du, Chi Jin, Jason D. Lee, Michael I. Jordan, Barnabas Poczos, and Aarti Singh. \n
-Neural Information Processing Systems (NIPS 2017)
-
-- [http://arxiv.org/abs/1511.07948 Learning Halfspaces and Neural Networks with Random Initialization].\n
-Yuchen Zhang, Jason D. Lee, Martin Wainwright, and Michael I. Jordan.\n
-AI & Statistics (AISTATS 2017) .
-
-- [https://arxiv.org/abs/1610.05247 Black-box Importance Sampling]. \n
-Qiang Liu and Jason D. Lee.\n
-AI & Statistics (AISTATS 2017) .
-
-- [https://arxiv.org/abs/1610.03045 Sketching Meets Random Projection in the Dual: A Provable Recovery Algorithm for Big and High-dimensional Data]. \n
-Jialei Wang, Jason D. Lee, Mehrdad Mahdavi, Mladen Kolar, and Nathan Srebro. \n
-AI & Statistics (AISTATS 2017) .
-
-- [http://arxiv.org/abs/1602.04915 Gradient Descent Converges to Minimizers].\n
-Jason D. Lee, Max Simchowitz, Michael I. Jordan, and Benjamin Recht.\n
-Conference on Learning Theory (COLT 2016). \n
-
-- [https://arxiv.org/abs/1605.07272 Matrix Completion has No Spurious Local Minimum].\n
-Rong Ge, Jason D. Lee, and Tengyu Ma.\n
-Neural Information Processing Systems (NIPS 2016), *Best Student Paper Award*. \n
-- [http://arxiv.org/abs/1510.03528 L1-regularized Neural Networks are Improperly Learnable in Polynomial Time].\n
-Yuchen Zhang, Jason D. Lee, and Michael I. Jordan.\n
-International Conference on Machine Learning (ICML 2016).
-
-- [http://arxiv.org/pdf/1602.03253.pdf A Kernelized Stein Discrepancy for Goodness-of-fit Tests and Model Evaluation].\n
-Qiang Liu, Jason D. Lee, and Michael I. Jordan.\n
-International Conference on Machine Learning (ICML 2016).
-
-- [https://papers.nips.cc/paper/5816-evaluating-the-statistical-significance-of-biclusters.pdf Evaluating the Statistical Significance of Submatrices.] \n
-Jason D. Lee, Yuekai Sun, and Jonathan Taylor. \n
-Neural Information Processing Systems (NIPS 2015). \n
-
-- [papers/marginal_screening.pdf Exact Post Model Selection Inference for Marginal Screening].\n
-Jason D. Lee and Jonathan Taylor.\n
-Neural Information Processing Systems (NIPS 2014). \n
-
-- [http://arxiv.org/abs/1402.6964 Scalable Methods for Nonnegative Matrix Factorizations of Near-Separable Tall-and-Skinny Matrices]\n
-Ausin R. Benson, Jason D. Lee, Bartek Rajwa, and David F. Gleich.\n
-Neural Information Processing Systems (NIPS 2014), Spotlight.\n
-[https://github.com/arbenson/mrnmf \[Code\]]	[https://www.opensciencedatacloud.org/publicdata/heat-transfer/ \[Heat Transfer Data\]]	[http://stanford.edu/~arbenson/data/FC_40k.txt \[Flow cytometry data\]]
-
-- [papers/using_multiple_samples.pdf  Using Multiple Samples to Learn Mixture Models.] \n
-Jason D. Lee, Ran Gilad-Bachrach, and Rich Caruana.\n
-Neural Information Processing Systems (NIPS 2013), Spotlight.
-
-- [papers/recovery_nips2013_camera.pdf On Model Selection Consistency of M-Estimators with Geometrically Decomposable Penalties.\n]
-Jason D. Lee, Yuekai Sun, and Jonathan Taylor.\n
-Neural Information Processing Systems (NIPS 2013).\n
-[http://arxiv.org/abs/1305.7477 Extended version] available on arXiv.
-
-- [http://jmlr.csail.mit.edu/proceedings/papers/v31/lee13a.pdf Learning Mixed Graphical Models\n]
-Jason D. Lee and Trevor Hastie.\n
-AI & Statistics (AISTATS) 2013.\n 
-[http://arxiv.org/abs/1205.5012 Extended version] available on arXiv. [learningmgm.html Project Homepage.] 
-
-- [http://papers.nips.cc/paper/4740-proximal-newton-type-methods-for-convex-optimization.pdf Proximal Newton-type Methods for Minimizing Convex Objective Functions in Composite Form.\n]
-Jason D. Lee, Yuekai Sun, and Michael Saunders.\n
-Neural Information Processing Systems (NIPS 2012).\n
-[http://arxiv.org/abs/1206.1623 \[arXiv\]] [http://www.stanford.edu/group/SOL/software/pnopt \[Code\]].
-
-- [papers/nips10.pdf Practical Large Scale Optimization for Max-norm Regularization.\n]
-Jason D. Lee, Benjamin Recht, Ruslan Salakhutdinov, Nati Srebro, and Joel Tropp.\n
-Neural Information Processing Systems (NIPS 2010).
-
-- [papers/sampta11.pdf Multiscale Dynamic Graphs\n]
-Jason D. Lee and  Mauro Maggioni.\n
-Sampling Theory and its Applications (SAMPTA) 2011.
-
-- [papers/infocom10.pdf Generalized DCell Structure for Load-Balanced Data Center Networks\n]
-Markus Kliegl, Jason D. Lee, Jun Li, Xinchao Zhang, Chuanxiong Guo, and David Rincon. \n IEEE International Conference on Computer Communications (INFOCOM 2010).
-
-- [papers/ssp09.pdf Estimation of Intrinsic Dimensionality of Samples from Noisy Low-Dimensional Manifolds in High Dimensions with Multiscale SVD\n]
-Anna V. Little, Jason D. Lee, and Mauro Maggioni. \n
-IEEE Statistical Signal Processing Workshop (SSP 2009). 
 == Other Publicatons
 - [http://opt.kyb.tuebingen.mpg.de/papers/opt2012_paper_21.pdf Analysis of Inexact Proximal Newton-type Methods.\n]
 Jason D. Lee, Yuekai Sun, and Michael Saunders. \n

@@ -44,12 +44,13 @@ I am also happy to host *remote visitors*. Summer visitors please contact me aro
 ~~~
 
 == Awards
-- *NSF Career Award* 2022.
-- *ONR Young Investigator Award* 2021.
+- *NSF Career Award* 2022
+
+- *ONR Young Investigator Award* 2021
 
 - *Sloan Research Fellow* in Computer Science, Alfred P. Sloan Foundation
 
-- NIPS 2016 *Best Student Paper Award* for ``Matrix Completion has no Spurious Local Minima".
+- NIPS 2016 *Best Student Paper Award* for ``Matrix Completion has no Spurious Local Minima"
 
 - Finalist for Best Paper Prize for Young Researchers in Continuous Optimization
 
@@ -59,16 +60,23 @@ I am also happy to host *remote visitors*. Summer visitors please contact me aro
 
 
 == Selected Publications
+- [https://arxiv.org/abs/2206.15144 Neural Networks can Learn Representations with Gradient Descent.]\n
+Alex Damian, Jason D. Lee, and Mahdi Soltanolkotabi.
+
+
 - [https://arxiv.org/abs/2202.04634 Offline Reinforcement Learning with Realizability and Single-policy Concentrability.]\n
 Wenhao Zhan, Baihe Huang, Audrey Huang, Nan Jiang, and Jason D. Lee.\n
 [https://youtu.be/RMyCkX_cCoo Video] and [slides/pro-rl-jl.pdf Slides]. 
 
-- [https://arxiv.org/abs/2112.02393 Optimization-Based Separations for Neural Networks.]\n
-Itay Safran and Jason D. Lee.\n
 
-- [https://arxiv.org/abs/2107.04518 Optimal Gradient-based Algorithms for Non-concave Bandit Optimization.]\n
- Baihe Huang, Kaixuan Huang, Sham M. Kakade, Jason D. Lee, Qi Lei, Runzhe Wang, and Jiaqi Yang.\n
- NeurIPS 2021. [https://youtu.be/3ckd9ixqO3A Video] and [slides/polynomial_bandit_slides.pdf Slides] from Qi Lei.
+- [https://arxiv.org/abs/2206.12020 Provably Efficient Reinforcement Learning in
+Partially Observable Dynamical System.]\n
+Masatoshi Uehara, Ayush Sekhari, Jason D. Lee, Nathan Kallus, and Wen Sun.\n
+
+- [https://arxiv.org/abs/2206.03688 Identifying good directions to escape the NTK regime and efficiently learn low-degree plus sparse polynomials.]\n
+Eshaan Nichani, Yu Bai, and Jason D. Lee.\n
+
+
 
 - [https://arxiv.org/abs/2106.06530 Label Noise SGD Provably Prefers Flat Global Minimizers.]\n
 Alex Damian, Tengyu Ma, and Jason D. Lee.\n
