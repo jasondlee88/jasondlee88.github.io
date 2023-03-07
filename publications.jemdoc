@@ -2,18 +2,52 @@
 =Publications
 
 == Preprints and Conference Publications
-- [https://arxiv.org/abs/2212.03714 Reconstructing Training Data from the Loss Gradient, Provably.]\n
-Zihan Wang, Jason D. Lee, Qi Lei.\n
+- [https://arxiv.org/abs/2301.13196 Looped Transformers as Programmable
+Computers.]\n
+Angeliki Giannou, Shashank Rajput, Jy-yong Sohn, Kangwook Lee, Jason D. Lee,  and Dimitris Papailiopoulos.
+
+- [https://arxiv.org/abs/2301.11500 Understanding Incremental Learning of Gradient Descent: A Fine-grained Analysis of Matrix Sensing.]\n
+Jikai Jin, Zhiyuan Li, Kaifeng Lyu, Simon S. Du,  and Jason D. Lee.\n
 
 - [https://arxiv.org/abs/2209.15594 Self-Stabilization: The Implicit Bias of Gradient Descent at the Edge of Stability.]\n
 Alex Damian, Eshaan Nichani, and Jason D. Lee.\n
+ICLR 2023.
+
+- [https://arxiv.org/abs/2206.01588 Decentralized Optimistic Hyperpolicy Mirror Descent: Provably No-Regret Learning in Markov Games.] \n
+Wenhao Zhan, Jason D. Lee, and Zhuoran Yang. \n
+ICLR 2023.
+
+- [https://arxiv.org/abs/2207.05738 PAC Reinforcement Learning for Predictive State Representations.]\n
+Wenhao Zhan, Masatoshi Uehara, Wen Sun, and Jason D. Lee.\n
+ICLR 2023.
+
+- [https://arxiv.org/abs/2303.03095 Can We Find Nash Equilibria at a Linear Rate in Markov Games?]\n
+Zhuoqing Song, Jason D. Lee, and Zhuoran Yang.\n
+ICLR 2023.
+
+- [https://arxiv.org/abs/2212.03714 Reconstructing Training Data from the Loss Gradient, Provably.]\n
+Zihan Wang, Jason D. Lee, Qi Lei.\n
+AISTATS 2023.
+
+- [https://arxiv.org/abs/2110.09507 Provable Hierarchy-Based Meta-Reinforcement Learning.]\n
+Kurtland Chua, Qi Lei, and Jason D. Lee.\n
+AISTATS 2023.
+
+- Provably Efficient Reinforcement Learning via Surprise Bound.\n
+Hanlin Zhu, Ruosong Wang, and Jason D. Lee.\n
+AISTATS 2023.
+
+
+- Optimal Sample Complexity Bounds for Non-convex Optimization under Kurdyka-Lojasiewicz Condition.\n
+Qian Yu, Yining Wang, Baihe Huang, Qi Lei, and Jason D. Lee. \n
+AISTATS 2023.
+
+
 
 - [https://arxiv.org/abs/2207.04036 Implicit Bias of Gradient Descent on Reparametrized Models: On Equivalence to Mirror Descent.]\n
 Zhiyuan Li, Tianhao Wang, Jason D. Lee, and Sanjeev Arora.\n
 NeurIPS 2022.
 
-- [https://arxiv.org/abs/2207.05738 PAC Reinforcement Learning for Predictive State Representations.]\n
-Wenhao Zhan, Masatoshi Uehara, Wen Sun, and Jason D. Lee.
 
 - [https://arxiv.org/abs/2206.15144 Neural Networks can Learn Representations with Gradient Descent.]\n
 Alex Damian, Jason D. Lee, and Mahdi Soltanolkotabi.\n
@@ -43,9 +77,6 @@ COLT 2022.
 Eshaan Nichani, Yu Bai, and Jason D. Lee.\n
 NeurIPS 2022.
 
-- [https://arxiv.org/abs/2206.01588 Decentralized Optimistic Hyperpolicy Mirror Descent: Provably No-Regret Learning in Markov Games.] \n
-Wenhao Zhan, Jason D. Lee, and Zhuoran Yang. \n
-
 - [https://arxiv.org/abs/2205.09072 On the Effective Number of Linear Regions in Shallow Univariate ReLU Networks: Convergence Guarantees and Implicit Bias.]\n
 Itay Safran, Gal Vardi, and Jason D. Lee.\n
 NeurIPS 2022.
@@ -56,9 +87,6 @@ Jiaqi Yang, Qi Lei, Jason D. Lee, and Simon S. Du. \n
 - [https://arxiv.org/abs/2112.02393 Optimization-Based Separations for Neural Networks.]\n
 Itay Safran and Jason D. Lee.\n
 COLT 2022.
-
-- [https://arxiv.org/abs/2110.09507 Provable Hierarchy-Based Meta-Reinforcement Learning.]\n
-Kurtland Chua, Qi Lei, and Jason D. Lee.\n
 
 - [https://arxiv.org/abs/2110.07807 Provable Regret Bounds for Deep Online Learning and Control.]\n
 Xinyi Chen, Edgar Minasyan, Jason D. Lee, Elad Hazan.\n 
