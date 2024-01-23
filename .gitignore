@@ -12,3 +12,5 @@ jo
 stage/
 *.jemdoc
 *.bak
+*.jemdoc
+*.bak
