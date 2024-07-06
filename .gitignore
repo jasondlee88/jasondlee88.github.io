@@ -15,3 +15,9 @@ stage/
 *.jemdoc
 *.bak
 *.jemdoc
+*.jemdoc
+publications.jemdoc.bak
+publications.jemdoc
+index.jemdoc.bak
+index.jemdoc
+group.jemdoc
