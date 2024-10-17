@@ -13,3 +13,8 @@ Makefile
 *.jemdoc
 *.md
 *.css
+*.jemdoc
+*.css
+Makefile
+*.py
+/www
