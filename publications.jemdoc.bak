@@ -1,35 +1,261 @@
 # jemdoc: menu{MENU}{publications.html}, analytics{UA-104083228-1}
 =Publications
 
-== Preprints and Conference Papers
-- [https://arxiv.org/abs/2206.12020 Provably Efficient Reinforcement Learning in
-Partially Observable Dynamical System.]\n
-Masatoshi Uehara, Ayush Sekhari, Jason D. Lee, Nathan Kallus, and Wen Sun.\n
+== Preprints and Conference Publications
 
+- [https://arxiv.org/abs/2406.01581 Neural network learns low-dimensional polynomials with SGD near the information-theoretic limit.]\n
+Jason D. Lee, Kazusato Oko, Taiji Suzuki, Denny Wu.\n
+NeurIPS 2024.
+
+
+- [https://arxiv.org/abs/2406.08466 Scaling Laws in Linear Regression: Compute, Parameters, and Data.]\n
+Licong Lin, Jingfeng Wu, Sham M. Kakade, Peter L. Bartlett, Jason D. Lee.\n
+NeurIPS 2024.
+
+- [https://arxiv.org/abs/2406.19617 Stochastic Zeroth-Order Optimization under Strongly Convexity and Lipschitz Hessian: Minimax Sample Complexity .]\n
+Qian Yu, Yining Wang, Baihe Huang, Qi Lei, and Jason D. Lee.\n
+NeurIPS 2024.
+
+- [https://arxiv.org/abs/2402.10193 BitDelta: Your Fine-Tune May Only Be Worth One Bit .]\n
+James Liu, Guangxuan Xiao, Kai Li, Jason D. Lee, Song Han, Tri Dao, and Tianle Cai.\n
+NeurIPS 2024.
+
+- [https://arxiv.org/abs/2404.16767 REBEL: Reinforcement Learning via Regressing Relative Rewards .]\n
+Zhaolin Gao, Jonathan D. Chang, Wenhao Zhan, Owen Oertell, Gokul Swamy, Kiante Brantley, Thorsten Joachims, J. Andrew Bagnell, Jason D. Lee, Wen Sun.\n
+NeurIPS 2024.
+
+- [https://arxiv.org/abs/2402.14735 How Transformers Learn Causal Structure with Gradient Descent.]\n
+Eshaan Nichani, Alex Damian, and Jason D. Lee.\n
+ICML 2024.
+
+
+- [https://arxiv.org/abs/2401.15530 An Information-Theoretic Analysis of In-Context Learning .]\n
+ Hong Jun Jeon, Jason D. Lee, Qi Lei, Benjamin Van Roy.\n
+ ICML 2024.
+
+- [https://arxiv.org/abs/2402.11867 LoRA Training in the NTK Regime has No Spurious Local Minima.]\n
+ Uijeong Jang, Jason D. Lee, and Ernest K. Ryu.\n
+ ICML 2024.
+ 
+ 
+- [https://arxiv.org/abs/2402.11592 Revisiting Zeroth-Order Optimization for Memory-Efficient LLM Fine-Tuning: A Benchmark.]\n
+ Yihua Zhang et al.\n
+  ICML 2024.
+
+- [https://arxiv.org/abs/2401.10774 Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads.]\n
+Tianle Cai, Yuhong Li, Zhengyang Geng, Hongwu Peng, Jason D. Lee, Deming Chen, and Tri Dao.\n
+[https://github.com/FasterDecoding/Medusa Code], and [https://sites.google.com/view/medusa-llm Blog].\n
+ICML 2024.
+
+- [https://arxiv.org/abs/2406.06893 Transformers Provably Learn Sparse Token Selection While Fully-Connected Nets Cannot.]\n
+Zixuan Wang, Stanley Wei, Daniel Hsu, Jason D. Lee.\n
+ICML 2024.
+
+
+
+- [https://arxiv.org/abs/2403.05529 Computational-Statistical Gaps in Gaussian Single-Index Models.]\n
+Alex Damian, Loucas Pillaud-Vivien, Jason D. Lee, Joan Bruna.\n
+COLT 2024.
+
+- [https://arxiv.org/abs/2312.05134 Optimal Multi-Distribution Learning.]\n
+Zihan Zhang, Wenhao Zhan, Yuxin Chen, Simon S. Du, and Jason D. Lee.\n
+COLT 2024.
+
+- [https://arxiv.org/abs/2307.13586 Settling the Sample Complexity of Online Reinforcement Learning.]\n
+Zihan Zhang, Yuxin Chen, Jason D. Lee, and Simon S. Du.\n
+COLT 2024.
+
+
+
+- [https://arxiv.org/abs/2305.14816 Provable Offline Reinforcement Learning with Human Feedback.] \n
+Wenhao Zhan, Masatoshi Uehara, Nathan Kallus, Jason D. Lee, and Wen Sun.\n
+ICLR 2024.
+
+- [https://arxiv.org/abs/2305.18505 Provable Reward-Agnostic Preference-Based Reinforcement Learning.] \n
+Wenhao Zhan, Masatoshi Uehara, Nathan Kallus, Jason D. Lee, and Wen Sun.\n
+ICLR 2024.
+  
+- [https://arxiv.org/abs/2403.10738 Horizon-Free Regret for Linear Markov Decision Processes.]\n
+Zihan Zhang, Jason D. Lee, Yuxin Chen, Simon S. Du.\n
+ICLR 2024
+
+- [https://arxiv.org/abs/2311.11965 Provably Efficient CVaR RL in Low-rank MDPs.]\n
+Yulai Zhao, Wenhao Zhan, Xiaoyan Hu, Ho-fung Leung, Farzan Farnia, Wen Sun, and Jason D. Lee.\n
+ICLR 2024.
+
+- [https://arxiv.org/abs/2311.13774 Learning Hierarchical Polynomials with Three-Layer Neural Networks].\n
+Zihao Wang, Eshaan Nichani, and Jason D. Lee.\n
+ICLR 2024.
+
+- [https://arxiv.org/abs/2311.18817 Dichotomy of Early and Late Phase Implicit Biases Can Provably Induce Grokking].\n
+Kaifeng Lyu, Jikai Jin, Zhiyuan Li, Simon S. Du, Jason D. Lee, and Wei Hu.\n
+ICLR 2024.
+
+- [https://arxiv.org/abs/2307.03381 Teaching Arithmetic to Small Transformers.]\n
+Nayoung Lee, Kartik Sreenivasan, Jason D. Lee, Kangwook Lee, and Dimitris Papailiopoulos.\n
+ICLR 2024.
+
+- [https://arxiv.org/abs/2311.08252 REST: Retrieval-Based Speculative Decoding].\n
+Zhenyu He, Zexuan Zhong, Tianle Cai, Jason D Lee, and Di He.\n
+[https://sites.google.com/view/rest-llm/ blogpost] and [https://github.com/FasterDecoding/REST code]\n
+NAACL 2024.
+
+
+
+
+
+- [https://arxiv.org/abs/2404.08495 Dataset Reset Policy Optimization for RLHF.]\n
+Jonathan D. Chang, Wenhao Zhan, Owen Oertell, Kiante Brantley, Dipendra Misra, Jason D. Lee, Wen Sun
+ 
+- [https://arxiv.org/abs/2307.02690 Scaling In-Context Demonstrations with Structured Attention. ]\n
+Tianle Cai, Kaixuan Huang, Jason D. Lee, and Mengdi Wang.
+
+- [https://arxiv.org/abs/2312.07930 Towards Optimal Statistical Watermarking.]\n
+Baihe Huang, Banghua Zhu, Hanlin Zhu, Jason D. Lee, Jiantao Jiao, and Michael I. Jordan.
+
+
+
+
+- [https://arxiv.org/abs/2305.17608  Reward Collapse in Aligning Large Language Models.]\n
+Ziang Song, Tianle Cai, Jason D. Lee, and Weijie J. Su.
+
+- [https://arxiv.org/abs/2403.03183 How Well Can Transformers Emulate In-context Newton's Method?]\n
+Angeliki Giannou, Liu Yang, Tianhao Wang, Dimitris Papailiopoulos, and Jason D. Lee.
+
+
+
+- [https://arxiv.org/abs/2305.17333 Fine-Tuning Language Models with Just Forward Passes .]\n
+ Sadhika Malladi, Tianyu Gao, Eshaan Nichani, Alex Damian, Jason D. Lee, Danqi Chen, and Sanjeev Arora.\n
+ NeurIPS 2023.
+ 
+ 
+- [https://arxiv.org/abs/2306.12383 Sample Complexity for Quadratic Bandits: Hessian Dependent Bounds and Optimal Algorithms.]\n
+Qian Yu, Yining Wang, Baihe Huang, Qi Lei, and Jason D. Lee.\n
+NeurIPS 2023.
+ 
+ 
+ 
+- [https://arxiv.org/abs/2305.10633 Smoothing the Landscape Boosts the Signal for SGD: Optimal Sample Complexity for Learning Single Index Models.]\n
+Alex Damian, Eshaan Nichani, Rong Ge, and Jason D. Lee. \n
+NeurIPS 2023.
+
+- [https://arxiv.org/abs/2305.11788 Implicit Bias of Gradient Descent for Logistic Regression at the Edge of Stability.]\n
+Jingfeng Wu, Vladimir Braverman, and Jason D. Lee.\n
+NeurIPS 2023.
+
+- [https://arxiv.org/abs/2305.10282 Reward-agnostic Fine-tuning: Provable Statistical Benefits of Hybrid Reinforcement Learning.]\n
+Gen Li, Wenhao Zhan, Jason D. Lee, Yuejie Chi, and Yuxin Chen.\n
+NeuriPS 2023.
+
+- [https://arxiv.org/abs/2305.06986 Provable Guarantees for Nonlinear Feature Learning in Three-Layer Neural Networks .]\n
+Eshaan Nichani, Alex Damian, and Jason D. Lee.\n
+NeurIPS 2023.
+
+- [https://arxiv.org/abs/2302.02392 Offline Minimax Soft-Q-learning Under Realizability and Partial Coverage.] \n
+Masatoshi Uehara, Nathan Kallus, Jason D. Lee, and Wen Sun.\n
+NeurIPS 2023.
+
+
+
+
+
+- [https://arxiv.org/abs/2301.13196 Looped Transformers as Programmable
+Computers.]\n
+Angeliki Giannou, Shashank Rajput, Jy-yong Sohn, Kangwook Lee, Jason D. Lee,  and Dimitris Papailiopoulos.
+ICML 2023.
+
+- [https://arxiv.org/abs/2301.11500 Understanding Incremental Learning of Gradient Descent: A Fine-grained Analysis of Matrix Sensing.]\n
+Jikai Jin, Zhiyuan Li, Kaifeng Lyu, Simon S. Du,  and Jason D. Lee.\n
+ICML 2023.
 
 - [https://arxiv.org/abs/2206.12081 Computationally Efficient PAC RL in POMDPs with Latent Determinism and Conditional Embeddings.]\n
 Masatoshi Uehara, Ayush Sekhari, Jason D. Lee, Nathan Kallus, and Wen Sun.\n
+ICML 2023.
 
-- [https://arxiv.org/abs/2202.04634 Offline Reinforcement Learning with Realizability and Single-policy Concentrability.]\n
-Wenhao Zhan, Baihe Huang, Audrey Huang, Nan Jiang, and Jason D. Lee.\n
+- Efficient displacement convex optimization with particle gradient descent.\n
+Hadi Daneshmand, Jason D. Lee,  and Chi Jin.\n
+ICML 2023. 
 
-- [https://arxiv.org/abs/2206.03688 Identifying good directions to escape the NTK regime and efficiently learn low-degree plus sparse polynomials.]\n
-Eshaan Nichani, Yu Bai, and Jason D. Lee.\n
+- [https://arxiv.org/abs/2305.04819 Local Optimization Achieves Global Optimality in Multi-Agent Reinforcement Learning.]\n
+Yulai Zhao, Zhuoran Yang, Zhaoran Wang, and Jason D. Lee.\n
+ICML 2023.
+
+- [https://arxiv.org/abs/2209.15594 Self-Stabilization: The Implicit Bias of Gradient Descent at the Edge of Stability.]\n
+Alex Damian, Eshaan Nichani, and Jason D. Lee.\n
+ICLR 2023.
 
 - [https://arxiv.org/abs/2206.01588 Decentralized Optimistic Hyperpolicy Mirror Descent: Provably No-Regret Learning in Markov Games.] \n
 Wenhao Zhan, Jason D. Lee, and Zhuoran Yang. \n
+ICLR 2023.
+
+- [https://arxiv.org/abs/2207.05738 PAC Reinforcement Learning for Predictive State Representations.]\n
+Wenhao Zhan, Masatoshi Uehara, Wen Sun, and Jason D. Lee.\n
+ICLR 2023.
+
+- [https://arxiv.org/abs/2303.03095 Can We Find Nash Equilibria at a Linear Rate in Markov Games?]\n
+Zhuoqing Song, Jason D. Lee, and Zhuoran Yang.\n
+ICLR 2023.
+
+- [https://arxiv.org/abs/2212.03714 Reconstructing Training Data from the Loss Gradient, Provably.]\n
+Zihan Wang, Jason D. Lee, Qi Lei.\n
+AISTATS 2023.
+
+- [https://arxiv.org/abs/2110.09507 Provable Hierarchy-Based Meta-Reinforcement Learning.]\n
+Kurtland Chua, Qi Lei, and Jason D. Lee.\n
+AISTATS 2023.
+
+- [https://arxiv.org/abs/2302.11634 Provably Efficient Reinforcement Learning via Surprise Bound.]\n
+Hanlin Zhu, Ruosong Wang, and Jason D. Lee.\n
+AISTATS 2023.
+
+
+- Optimal Sample Complexity Bounds for Non-convex Optimization under Kurdyka-Lojasiewicz Condition.\n
+Qian Yu, Yining Wang, Baihe Huang, Qi Lei, and Jason D. Lee. \n
+AISTATS 2023.
+
+
+
+- [https://arxiv.org/abs/2207.04036 Implicit Bias of Gradient Descent on Reparametrized Models: On Equivalence to Mirror Descent.]\n
+Zhiyuan Li, Tianhao Wang, Jason D. Lee, and Sanjeev Arora.\n
+NeurIPS 2022.
+
+
+- [https://arxiv.org/abs/2206.15144 Neural Networks can Learn Representations with Gradient Descent.]\n
+Alex Damian, Jason D. Lee, and Mahdi Soltanolkotabi.\n
+COLT 2022.
+
+- [https://arxiv.org/abs/2206.12020 Provably Efficient Reinforcement Learning in
+Partially Observable Dynamical System.]\n
+Masatoshi Uehara, Ayush Sekhari, Jason D. Lee, Nathan Kallus, and Wen Sun.\n
+NeurIPS 2022.
+
+- [https://arxiv.org/abs/2210.06705 From Gradient Flow on Population Loss to Learning with Stochastic Gradient Descent.]\n
+Christopher De Sa, Satyen Kale, Jason D. Lee, Ayush Sekhari, and Karthik Sridharan.\n
+NeurIPS 2022.
+
+
+
+
+
+- [https://arxiv.org/abs/2202.04634 Offline Reinforcement Learning with Realizability and Single-policy Concentrability.]\n
+Wenhao Zhan, Baihe Huang, Audrey Huang, Nan Jiang, and Jason D. Lee.\n
+COLT 2022.
+
+
+- [https://arxiv.org/abs/2206.03688 Identifying good directions to escape the NTK regime and efficiently learn low-degree plus sparse polynomials.]\n
+Eshaan Nichani, Yu Bai, and Jason D. Lee.\n
+NeurIPS 2022.
 
 - [https://arxiv.org/abs/2205.09072 On the Effective Number of Linear Regions in Shallow Univariate ReLU Networks: Convergence Guarantees and Implicit Bias.]\n
 Itay Safran, Gal Vardi, and Jason D. Lee.\n
+NeurIPS 2022.
 
 - [https://arxiv.org/abs/2203.15664 Nearly Minimax Algorithms for Linear Bandits with Shared Representation.]\n
 Jiaqi Yang, Qi Lei, Jason D. Lee, and Simon S. Du. \n
 
 - [https://arxiv.org/abs/2112.02393 Optimization-Based Separations for Neural Networks.]\n
 Itay Safran and Jason D. Lee.\n
-
-- [https://arxiv.org/abs/2110.09507 Provable Hierarchy-Based Meta-Reinforcement Learning.]\n
-Kurtland Chua, Qi Lei, and Jason D. Lee.\n
+COLT 2022.
 
 - [https://arxiv.org/abs/2110.07807 Provable Regret Bounds for Deep Online Learning and Control.]\n
 Xinyi Chen, Edgar Minasyan, Jason D. Lee, Elad Hazan.\n 
@@ -61,7 +287,7 @@ Kurtland Chua, Qi Lei, and Jason D. Lee.\n
 Wenhao Zhan, Shicong Cen, Baihe Huang, Yuxin Chen, Jason D. Lee, and Yuejie Chi.\n
 
 - [https://arxiv.org/abs/2008.01064 Predicting What You Already Know Helps: Provable Self-Supervised Learning.]\n
-Jason D. Lee, Qi Lei, Nikunj Saunshi, and Jiacheng Zhuo.
+Jason D. Lee, Qi Lei, Nikunj Saunshi, and Jiacheng Zhuo.\n
  NeurIPS 2021.
 
 - [https://arxiv.org/abs/2007.01452 Modeling from Features: a Mean-field Framework for Over-parameterized Deep Neural Networks .]\n
@@ -88,9 +314,9 @@ ICML 2021.
 Tianle Cai, Ruiqi Gao, Jason D. Lee, and Qi Lei.\n
 ICML 2021.
 
-- [https://arxiv.org/abs/2102.11448 MUSBO: Model-based Uncertainty Regularized and Sample Efficient Batch Optimization for Deployment Constrained Reinforcement Learning.]\n
-DiJia Su, Jason D. Lee, John M. Mulvey, and H. Vincent Poor.\n
-ICASSP 2022.
+#- [https://arxiv.org/abs/2102.11448 MUSBO: Model-based Uncertainty Regularized and Sample Efficient Batch #Optimization for Deployment Constrained Reinforcement Learning.]\n
+#DiJia Su, Jason D. Lee, John M. Mulvey, and H. Vincent Poor.\n
+#ICASSP 2022.
 
 - [https://arxiv.org/abs/2010.05843 How Important is the Train-Validation Split in Meta-Learning?]\n
 Yu Bai, Minshuo Chen, Pan Zhou, Tuo Zhao, Jason D. Lee, Sham Kakade, Huan Wang, and Caiming Xiong.\n
@@ -335,7 +561,6 @@ Markus Kliegl, Jason D. Lee, Jun Li, Xinchao Zhang, Chuanxiong Guo, and David Ri
 - [papers/ssp09.pdf Estimation of Intrinsic Dimensionality of Samples from Noisy Low-Dimensional Manifolds in High Dimensions with Multiscale SVD\n]
 Anna V. Little, Jason D. Lee, and Mauro Maggioni. \n
 IEEE Statistical Signal Processing Workshop (SSP 2009). 
-
 == Journal Publications
 - [https://arxiv.org/abs/1905.10027 Neural Q-Learning Converges to Global Optima]\n
 Qi Cai, Zhuoran Yang, Jason D. Lee, and Zhaoran Wang.\n
@@ -413,7 +638,7 @@ Jason D. Lee, Yuekai Sun, and Michael Saunders. \n
 SIAM Journal on Optimization 2014.\n
 [http://www.stanford.edu/group/SOL/software/pnopt PNOPT package]
 
-== Other Publicatons
+== Other Publications
 - [http://opt.kyb.tuebingen.mpg.de/papers/opt2012_paper_21.pdf Analysis of Inexact Proximal Newton-type Methods.\n]
 Jason D. Lee, Yuekai Sun, and Michael Saunders. \n
 Neural Information Processing Systems Optimization and Machine Learning Workshop 2012.\n
