@@ -97,3 +97,7 @@ www/revision.jemdoc
 www/stuff.jemdoc
 www/tables.jemdoc
 www/using.jemdoc
+*.jemdoc
+index.jemdoc
+publications.jemdoc
+software.html.html
