@@ -2,6 +2,139 @@
 =Publications
 
 == Preprints and Conference Publications
+- [https://arxiv.org/abs/2603.26554 Sharp Capacity Scaling of Spectral Optimizers in Learning Associative Memory.]\n
+Juno Kim, Eshaan Nichani, Denny Wu, Alberto Bietti, Jason D. Lee.\n
+
+- [https://arxiv.org/abs/2602.02285 Statistical Learning Theory in Lean 4: Empirical Processes from Scratch.]\n
+Yuanhe Zhang, Jason D. Lee, Fanghui Liu.\n
+
+- [https://arxiv.org/abs/2601.19756 Provable Learning of Random Hierarchy Models and Hierarchical Shallow-to-Deep Chaining.]\n
+ Yunwei Ren, Yatin Dandi, Florent Krzakala, Jason D. Lee.\n
+ 
+- [https://arxiv.org/abs/2601.08421 Coverage Improvement and Fast Convergence of On-policy Preference Learning.]\n 
+- [https://arxiv.org/abs/2603.06028 Improved high-dimensional estimation with Langevin dynamics and stochastic weight averaging.]\n
+ Stanley Wei, Alex Damian, Jason D. Lee.\n
+ 
+ - [https://arxiv.org/abs/2511.15120 Neural Networks Learn Generic Multi-Index Models Near Information-Theoretic Limit ]\n
+ Bohan Zhang, Zihao Wang, Hengyu Fu, Jason D. Lee.
+ 
+- [https://arxiv.org/abs/2506.05500 The Generative Leap: Sharp Sample Complexity for Efficiently Learning Gaussian Multi-Index Models.]\n
+Alex Damian, Jason D. Lee, Joan Bruna.\n
+NeurIPS 2025.
+
+- [https://arxiv.org/abs/2510.27015 Quantitative Bounds for Length Generalization in Transformers.]\n
+Zachary Izzo, Eshaan Nichani, Jason D. Lee.\n
+
+
+- [https://arxiv.org/abs/2510.19842 DAG-Math: Graph-Guided Mathematical Reasoning in LLMs.]\n
+Yuanhe Zhang, Ilja Kuzborskij, Jason D. Lee, Chenlei Leng, Fanghui Liu.\n
+
+- [https://arxiv.org/abs/2510.04115 On the Statistical Query Complexity of Learning Semiautomata: a Random Walk Approach.]\n
+ George Giapitzakis, Kimon Fountoulakis, Eshaan Nichani, Jason D. Lee.\n
+ 
+- [https://arxiv.org/abs/2509.17251 Risk Comparisons in Linear Regression: Implicit Regularization Dominates Explicit Regularization.]\n
+Jingfeng Wu, Peter L. Bartlett, Jason D. Lee, Sham M. Kakade, Bin Yu.
+ 
+- [https://fuchsia-arch-d8e.notion.site/Heuristics-Considered-Harmful-RL-With-Random-Rewards-Should-Not-Make-LLMs-Reason-21ba29497c4180ca86ffce303f01923d Heuristics Considered Harmful: RL With Random Rewards Should Not Make LLMs Reason.]\n
+Owen Oertell, Wenhao Zhan, Gokul Swamy, Zhiwei Steven Wu, Kiante Brantley, Jason Lee, Wen Sun.
+
+
+
+- [https://arxiv.org/abs/2502.01694 Metastable Dynamics of Chain-of-Thought Reasoning: Provable Benefits of Search, RL and Distillation.]\n
+Juno Kim, Denny Wu, Jason Lee, Taiji Suzuki.\n
+ICML 2025.
+
+- [https://arxiv.org/abs/2502.05075 Discrepancies are Virtue: Weak-to-Strong Generalization through Lens of Intrinsic Dimension.]\n
+Yijun Dong, Yicheng Li, Yunai Li, Jason D. Lee, Qi Lei.\n
+ICML 2025.
+
+- [https://arxiv.org/abs/2501.00712 Rethinking Addressing in Language Models via Contexualized Equivariant Positional Encoding.]\n
+Jiajun Zhu, Peihao Wang, Ruisi Cai, Jason D. Lee, Pan Li, Zhangyang Wang.\n
+ICML 2025.
+
+- Minimax Optimal Regret Bound for Reinforcement Learning with Trajectory Feedback.\n
+Zihan Zhang, Yuxin Chen, Jason D. Lee, Simon Shaolei Du, Ruosong Wang.\n
+ICML 2025.
+ 
+
+
+
+
+- [https://arxiv.org/abs/2505.23683  Learning Compositional Functions with Transformers from Easy-to-Hard Data.]\n
+Zixuan Wang, Eshaan Nichani, Alberto Bietti, Alex Damian, Daniel Hsu, Jason D. Lee, Denny Wu.\n
+COLT 2025.
+
+- [https://arxiv.org/abs/2504.19983 Emergence and scaling laws in SGD learning of shallow neural networks.]\n
+Yunwei Ren, Eshaan Nichani, Denny Wu, Jason D. Lee.\n
+NeurIPS 2025.
+
+- [https://arxiv.org/abs/2503.15477 What Makes a Reward Model a Good Teacher? An Optimization Perspective.]\n
+Noam Razin, Zixuan Wang, Hubert Strauss, Stanley Wei, Jason D. Lee, Sanjeev Arora.\n
+NeurIPS 2025.
+
+- [https://arxiv.org/abs/2505.20686 Accelerating RL for LLM Reasoning with Optimal Advantage Regression.]\n
+Kiante Brantley, Mingyu Chen, Zhaolin Gao, Jason D. Lee, Wen Sun, Wenhao Zhan, Xuezhou Zhang.\n
+NeurIPS 2025.
+
+- [https://arxiv.org/abs/2410.24206 Understanding Optimization in Deep Learning with Central Flows.]\n
+Jeremy M. Cohen, Alex Damian, Ameet Talwalkar, J. Zico Kolter,  Jason D. Lee.\n
+ICLR 2025 and [https://centralflows.github.io/ blog].
+
+
+- [https://openreview.net/forum?id=NvaZn3uwzJ Deployment Efficient Reward-Free Exploration with Linear Function Approximation.]\n
+Zihan Zhang, Lin Yang, Yuxin Chen, Jason D. Lee, Simon Shaolei Du, Ruosong Wang.\n
+NeurIPS 2025.
+
+- [https://arxiv.org/abs/2508.07208 What One Cannot, Two Can: Two-Layer Transformers Provably Represent Induction Heads on Any-Order Markov Chains.]\n
+Chanakya Ekbote, Marco Bondaschi, Nived Rajaraman, Jason D. Lee, Michael Gastpar, Ashok Vardhan Makkuva, Paul Pu Liang.\n
+NeurIPS 2025.
+
+- [https://arxiv.org/abs/2411.17201 Learning Hierarchical Polynomials of Multiple Nonlinear Features with Three-Layer Networks.] \n
+Hengyu Fu, Zihao Wang, Eshaan Nichani,  Jason D. Lee.\n
+ICLR 2025.
+
+
+- [https://arxiv.org/abs/2412.06538 Understanding Factual Recall in Transformers via Associative Memories.]\n
+Eshaan Nichani, Jason D. Lee,  Alberto Bietti.\n
+ICLR 2025.
+
+- [https://arxiv.org/abs/2502.21212 Transformers Learn to Implement Multi-step Gradient Descent with Chain of Thought.]\n
+Jianhao Huang, Zixuan Wang, Jason D. Lee.\n
+ICLR 2025.
+
+- Transformers Provably Learn Two-Mixture of Linear Classification via Gradient Flow.\n
+Hongru Yang, Zhangyang Wang, Jason D. Lee, Yingbin Liang.\n
+ICLR 2025.
+
+- [https://arxiv.org/abs/2410.01101 Exploiting Structure in Offline Multi-Agent RL: The Benefits of Low Interaction Rank.]\n
+  Wenhao Zhan, Scott Fujimoto, Zheqing Zhu, Jason D. Lee, Daniel R. Jiang, Yonathan Efroni.\n
+  ICLR 2025.
+  
+- [https://arxiv.org/abs/2407.13399 Correcting the Mythos of KL-Regularization: Direct Alignment without Overoptimization via Chi-Squared Preference Optimization .]\n
+Audrey Huang, Wenhao Zhan, Tengyang Xie, Jason D. Lee, Wen Sun, Akshay Krishnamurthy, Dylan J. Foster.\n
+ICLR 2025.
+
+- [https://arxiv.org/abs/2410.04612 Regressing the Relative Future: Efficient Policy Optimization for Multi-turn RLHF.]\n
+ Zhaolin Gao, Wenhao Zhan, Jonathan D. Chang, Gokul Swamy, Kiante Brantley, Jason D. Lee,  Wen Sun.\n
+ ICLR 2025.
+   
+
+- [https://arxiv.org/abs/2411.17668 Anytime Acceleration of Gradient Descent.] \n
+Zihan Zhang, Jason D. Lee, Simon S. Du, Yuxin Chen.\n
+COLT 2025.
+
+
+- [https://arxiv.org/abs/2410.09678 Learning Orthogonal Multi-Index Models: A Fine-Grained Information Exponent Analysis.] \n
+Yunwei Ren and Jason D. Lee. \n
+NeurIPS 2025.
+
+- [https://arxiv.org/abs/2410.05448 Task Diversity Shortens the ICL Plateau.]\n
+Jaeyeon Kim, Sehyun Kwon, Joo Young Choi, Jongho Park, Jaewoong Cho, Jason D. Lee,  Ernest K. Ryu.\n
+TMLR 2025.
+
+
+
+
 
 - [https://arxiv.org/abs/2406.01581 Neural network learns low-dimensional polynomials with SGD near the information-theoretic limit.]\n
 Jason D. Lee, Kazusato Oko, Taiji Suzuki, Denny Wu.\n
@@ -12,27 +145,28 @@ NeurIPS 2024.
 Licong Lin, Jingfeng Wu, Sham M. Kakade, Peter L. Bartlett, Jason D. Lee.\n
 NeurIPS 2024.
 
-- [https://arxiv.org/abs/2406.19617 Stochastic Zeroth-Order Optimization under Strongly Convexity and Lipschitz Hessian: Minimax Sample Complexity .]\n
+- [https://arxiv.org/abs/2406.19617 Stochastic Zeroth-Order Optimization under Strongly Convexity and Lipschitz Hessian: Minimax Sample Complexity.]\n
 Qian Yu, Yining Wang, Baihe Huang, Qi Lei, and Jason D. Lee.\n
 NeurIPS 2024.
 
-- [https://arxiv.org/abs/2402.10193 BitDelta: Your Fine-Tune May Only Be Worth One Bit .]\n
+- [https://arxiv.org/abs/2402.10193 BitDelta: Your Fine-Tune May Only Be Worth One Bit.]\n
 James Liu, Guangxuan Xiao, Kai Li, Jason D. Lee, Song Han, Tri Dao, and Tianle Cai.\n
 NeurIPS 2024.
 
-- [https://arxiv.org/abs/2404.16767 REBEL: Reinforcement Learning via Regressing Relative Rewards .]\n
+- [https://arxiv.org/abs/2404.16767 REBEL: Reinforcement Learning via Regressing Relative Rewards.]\n
 Zhaolin Gao, Jonathan D. Chang, Wenhao Zhan, Owen Oertell, Gokul Swamy, Kiante Brantley, Thorsten Joachims, J. Andrew Bagnell, Jason D. Lee, Wen Sun.\n
 NeurIPS 2024.
 
-- Learning and Transferring Sparse Contextual Bigrams with Linear Transformers.\n
-Yunwei Ren, Zixuan Wang, and Jason D. Lee.
+- [https://arxiv.org/abs/2410.23438 Learning and Transferring Sparse Contextual Bigrams with Linear Transformers.]\n
+Yunwei Ren, Zixuan Wang, and Jason D. Lee.\n
+NeurIPS 2024.
 
 - [https://arxiv.org/abs/2402.14735 How Transformers Learn Causal Structure with Gradient Descent.]\n
 Eshaan Nichani, Alex Damian, and Jason D. Lee.\n
 ICML 2024.
 
 
-- [https://arxiv.org/abs/2401.15530 An Information-Theoretic Analysis of In-Context Learning .]\n
+- [https://arxiv.org/abs/2401.15530 An Information-Theoretic Analysis of In-Context Learning.]\n
  Hong Jun Jeon, Jason D. Lee, Qi Lei, Benjamin Van Roy.\n
  ICML 2024.
 
