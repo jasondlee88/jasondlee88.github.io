@@ -2,21 +2,48 @@
 =Publications
 
 == Preprints and Conference Publications
+- [https://arxiv.org/abs/2606.05400 LeanMarathon: Toward Reliable AI Co-Mathematicians through Long-Horizon Lean Autoformalization.]\n
+Yuanhe Zhang, Yuekai Sun, Taiji Suzuki, Jason D. Lee, Fanghui Liu.\n
+Preprint.
+
+- [https://arxiv.org/abs/2605.27774 Fine-Tuning Dynamics of In-Context Factual Recall in Transformers.]\n
+Ruomin Huang, Eshaan Nichani, Jason D. Lee, Rong Ge.\n
+ICML 2026 FoGen Workshop Poster.
+
 - [https://arxiv.org/abs/2603.26554 Sharp Capacity Scaling of Spectral Optimizers in Learning Associative Memory.]\n
 Juno Kim, Eshaan Nichani, Denny Wu, Alberto Bietti, Jason D. Lee.\n
+HiLD at ICML 2026 Spotlight.
+
+- [https://arxiv.org/abs/2605.05189 Sharp Capacity Thresholds in Linear Associative Memory: From Winner-Take-All to Listwise Retrieval.]\n
+Nicholas Barnfield, Juno Kim, Eshaan Nichani, Jason D. Lee, Yue M. Lu.\n
+Preprint.
+
+- [https://arxiv.org/abs/2604.22951 The Power of Power Law: Asymmetry Enables Compositional Reasoning.]\n
+Zixuan Wang, Xingyu Dang, Jason D. Lee, Kaifeng Lyu.\n
+ICML 2026.
+
+
 
 - [https://arxiv.org/abs/2602.02285 Statistical Learning Theory in Lean 4: Empirical Processes from Scratch.]\n
 Yuanhe Zhang, Jason D. Lee, Fanghui Liu.\n
+ICML 2026.
 
 - [https://arxiv.org/abs/2601.19756 Provable Learning of Random Hierarchy Models and Hierarchical Shallow-to-Deep Chaining.]\n
  Yunwei Ren, Yatin Dandi, Florent Krzakala, Jason D. Lee.\n
+ COLT 2026.
  
 - [https://arxiv.org/abs/2601.08421 Coverage Improvement and Fast Convergence of On-policy Preference Learning.]\n 
+Juno Kim, Jihun Yun, Jason D. Lee, Kwang-Sung Jun.\n
+ICML 2026.
+
 - [https://arxiv.org/abs/2603.06028 Improved high-dimensional estimation with Langevin dynamics and stochastic weight averaging.]\n
  Stanley Wei, Alex Damian, Jason D. Lee.\n
+ ICLR 2026.
  
- - [https://arxiv.org/abs/2511.15120 Neural Networks Learn Generic Multi-Index Models Near Information-Theoretic Limit ]\n
- Bohan Zhang, Zihao Wang, Hengyu Fu, Jason D. Lee.
+ - [https://arxiv.org/abs/2511.15120 Neural Networks Learn Generic Multi-Index Models Near Information-Theoretic Limit.]\n
+ Bohan Zhang, Zihao Wang, Hengyu Fu, Jason D. Lee.\n
+ ICLR 2026.
+ 
  
 - [https://arxiv.org/abs/2506.05500 The Generative Leap: Sharp Sample Complexity for Efficiently Learning Gaussian Multi-Index Models.]\n
 Alex Damian, Jason D. Lee, Joan Bruna.\n
@@ -24,16 +51,20 @@ NeurIPS 2025.
 
 - [https://arxiv.org/abs/2510.27015 Quantitative Bounds for Length Generalization in Transformers.]\n
 Zachary Izzo, Eshaan Nichani, Jason D. Lee.\n
+ICLR 2026.
 
 
 - [https://arxiv.org/abs/2510.19842 DAG-Math: Graph-Guided Mathematical Reasoning in LLMs.]\n
 Yuanhe Zhang, Ilja Kuzborskij, Jason D. Lee, Chenlei Leng, Fanghui Liu.\n
+NeurIPS 2025.
 
 - [https://arxiv.org/abs/2510.04115 On the Statistical Query Complexity of Learning Semiautomata: a Random Walk Approach.]\n
  George Giapitzakis, Kimon Fountoulakis, Eshaan Nichani, Jason D. Lee.\n
+ COLT 2026.
  
 - [https://arxiv.org/abs/2509.17251 Risk Comparisons in Linear Regression: Implicit Regularization Dominates Explicit Regularization.]\n
-Jingfeng Wu, Peter L. Bartlett, Jason D. Lee, Sham M. Kakade, Bin Yu.
+Jingfeng Wu, Peter L. Bartlett, Jason D. Lee, Sham M. Kakade, Bin Yu.\n
+COLT 2026
  
 - [https://fuchsia-arch-d8e.notion.site/Heuristics-Considered-Harmful-RL-With-Random-Rewards-Should-Not-Make-LLMs-Reason-21ba29497c4180ca86ffce303f01923d Heuristics Considered Harmful: RL With Random Rewards Should Not Make LLMs Reason.]\n
 Owen Oertell, Wenhao Zhan, Gokul Swamy, Zhiwei Steven Wu, Kiante Brantley, Jason Lee, Wen Sun.
