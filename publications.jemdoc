@@ -35,7 +35,7 @@ ICML 2026.
 - [https://arxiv.org/abs/2603.06028 Improved high-dimensional estimation with Langevin dynamics and stochastic weight averaging.]\n
  Stanley Wei, Alex Damian, Jason D. Lee.\n
  ICLR 2026.
- 
+
  - [https://arxiv.org/abs/2511.15120 Neural Networks Learn Generic Multi-Index Models Near Information-Theoretic Limit.]\n
  Bohan Zhang, Zihao Wang, Hengyu Fu, Jason D. Lee.\n
  ICLR 2026.
@@ -60,7 +60,7 @@ NeurIPS 2025.
  
 - [https://arxiv.org/abs/2509.17251 Risk Comparisons in Linear Regression: Implicit Regularization Dominates Explicit Regularization.]\n
 Jingfeng Wu, Peter L. Bartlett, Jason D. Lee, Sham M. Kakade, Bin Yu.\n
-COLT 2026
+COLT 2026.
  
 - [https://fuchsia-arch-d8e.notion.site/Heuristics-Considered-Harmful-RL-With-Random-Rewards-Should-Not-Make-LLMs-Reason-21ba29497c4180ca86ffce303f01923d Heuristics Considered Harmful: RL With Random Rewards Should Not Make LLMs Reason.]\n
 Owen Oertell, Wenhao Zhan, Gokul Swamy, Zhiwei Steven Wu, Kiante Brantley, Jason Lee, Wen Sun.
